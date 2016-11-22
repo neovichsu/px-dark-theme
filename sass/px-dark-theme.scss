@@ -1,99 +1,492 @@
-$d-black : #000000;
-$d-gray20 : #05090c;
-$d-gray19 : #0c1419;
-$d-gray18 : #121f26;
-$d-gray17 : #1b2a33;
-$d-gray16 : #23343f;
-$d-gray15 : #2c404c;
-$d-gray14 : #364c59;
-$d-gray13 : #425866;
-$d-gray12 : #4c6472;
-$d-gray11 : #59717f;
-$d-gray10 : #677E8c;
-$d-gray9 : #748b99;
-$d-gray8 : #889aa5;
-$d-gray7 : #96a8b2;
-$d-gray6 : #a3b5bf;
-$d-gray5 : #b6c3cc;
-$d-gray4 : #c5d1d8;
-$d-gray3 : #d8e0e5;
-$d-gray2 : #e2e8ed;
-$d-gray1 : #ebeff2;
-$d-white : #ffffff;
-
-$d-primary-blue : #0073a5;
-$d-primary-blue-hover : #004f72;
-$d-primary-blue-pressed	 : #004266;
-
-$d-select-blue-default : #096270;
-$d-select-blue-hover	 : #085860;
-$d-select-blue-pressed : #06454c;
-
-$d-alert-red : #bf302c;
-$d-alert-orange : #cc7032;
-$d-alert-yellow : #cc9b00;
-$d-alert-blue : #116299;
-$d-alert-green : #cc7032;
-
-$d-dv-basic-1	 : #d35e0d;
-$d-dv-basic-2 : #a9ae13;
-$d-dv-basic-3 : #00861c;
-$d-dv-basic-4	 : #206e63;
-$d-dv-basic-5 : #00608c;
-$d-dv-basic-6 : #6d64d9;
-$d-dv-basic-7 : #019dd2;
-$d-dv-basic-8 : #9c1cc8;
-$d-dv-basic-9 : #da0288;
-$d-dv-basic-10 : #d85264;
-
-$d-dv-bright-1 : #f7882c;
-$d-dv-bright-2 : #d1d63e;
-$d-dv-bright-3 : #2cac48;
-$d-dv-bright-4 : #4d978b;
-$d-dv-bright-5 : #2a89b4;
-$d-dv-bright-6 : #958efe;
-$d-dv-bright-7 : #2ec4f8;
-$d-dv-bright-8 : #c248ee;
-$d-dv-bright-9 : #ff2db0;
-$d-dv-bright-10 : #ff7b8d;
-
-$d-dv-muted-1 : #853c05;
-$d-dv-muted-2	 : #6b700a;
-$d-dv-muted-3 : #025512;
-$d-dv-muted-4	 : #13473f;
-$d-dv-muted-5 : #003d59;
-$d-dv-muted-6 : #453f8a;
-$d-dv-muted-7	 : #006586;
-$d-dv-muted-8 : #641380;
-$d-dv-muted-9 : #8a0056;
-$d-dv-muted-10 : #89343f;
-
 //
 // component theme variables
 //
+
+// @import "px-colors-design/_settings.colors.scss";
+
+/****************************/
+/* Dark Theme Color Palette */
+/****************************/
+
+// Monochrome
+
+$d-black  :   rgb(0,0,0);
+$d-gray20 :   rgb(5,9,12);
+$d-gray19 :   rgb(12,20,25);
+$d-gray18 :   rgb(18,31,38);
+$d-gray17 :   rgb(27,42,51);
+$d-gray16 :   rgb(35,52,63);
+$d-gray15 :   rgb(44,64,76);
+$d-gray14 :   rgb(54,76,89);
+$d-gray13 :   rgb(66,88,102);
+$d-gray12 :   rgb(76,100,114);
+$d-gray11 :   rgb(89,113,127);
+$d-gray10 :   rgb(103,126,140);
+$d-gray9  :   rgb(116,139,153);
+$d-gray8  :   rgb(136,154,165);
+$d-gray7  :   rgb(150,168,178);
+$d-gray6  :   rgb(163,181,191);
+$d-gray5  :   rgb(182,195,204);
+$d-gray4  :   rgb(197,209,216);
+$d-gray3  :   rgb(216,224,229);
+$d-gray2  :   rgb(226,232,237);
+$d-gray1  :   rgb(235,239,242);
+$d-white  :   rgb(255,255,255);
+
+// Buttons
+
+$d-primary-blue          :   rgb(0,115,165);
+$d-primary-blue-hover    :   rgb(0,79,114);
+$d-primary-blue-pressed  :   rgb(0,66,102);
+
+// Selections
+
+$d-select-blue-default   :   rgb(9,98,112);
+$d-select-blue-hover     :   rgb(8,88,96);
+$d-select-blue-pressed   :   rgb(6,69,76);
+
+// Alerts
+
+$d-alert-red     :   rgb(191,48,41);
+$d-alert-orange  :   rgb(204,112,50);
+$d-alert-yellow  :   rgb(0,155,0);
+$d-alert-blue    :   rgb(70,98,153);
+$d-alert-green   :   rgb(96,127,20);
+
+// Data Visualization Basic
+
+$d-dv-basic-1    :   rgb(211,94,13);
+$d-dv-basic-2    :   rgb(169,174,19);
+$d-dv-basic-3    :   rgb(0,134,28);
+$d-dv-basic-4    :   rgb(32,110,99);
+$d-dv-basic-5    :   rgb(0,96,140);
+$d-dv-basic-6    :   rgb(109,100,217);
+$d-dv-basic-7    :   rgb(1,157,210);
+$d-dv-basic-8    :   rgb(156,28,200);
+$d-dv-basic-9    :   rgb(218,2,136);
+$d-dv-basic-10   :   rgb(216,82,100);
+
+// Data Visualization Bright
+
+$d-dv-bright-1   :   rgb(247,136,44  );
+$d-dv-bright-2   :   rgb(209,214,62  );
+$d-dv-bright-3   :   rgb(44,172,72);
+$d-dv-bright-4   :   rgb(77,151,139);
+$d-dv-bright-5   :   rgb(42,137,180);
+$d-dv-bright-6   :   rgb(149,142,254);
+$d-dv-bright-7   :   rgb(46,196,248);
+$d-dv-bright-8   :   rgb(194,72,238);
+$d-dv-bright-9   :   rgb(255,45,176);
+$d-dv-bright-10  :   rgb(255,123,141);
+
+// Data Visualization Muted
+
+$d-dv-muted-1    :   rgb(133,60,5);
+$d-dv-muted-2    :   rgb(107,112,10);
+$d-dv-muted-3    :   rgb(2,85,18);
+$d-dv-muted-4    :   rgb(19,71,63);
+$d-dv-muted-5    :   rgb(0,61,89);
+$d-dv-muted-6    :   rgb(69,63,138);
+$d-dv-muted-7    :   rgb(0,101,134);
+$d-dv-muted-8    :   rgb(100,19,128);
+$d-dv-muted-9    :   rgb(138,0,86);
+$d-dv-muted-10   :   rgb(137,52,63);
 
 $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
 @import "px-typography-design/_base.typography.scss";
 
+html {
+  color: $d-gray4;
+  background-color: $d-gray17;
+}
+
 :root{
 
-  --px-app-nav-background-color:            $d-gray19;
-  --px-app-nav-link-text-color:             $d-gray12;
-  --px-app-nav-link-selected-color:         $d-gray18;
-  --px-app-nav-link-selected-active-color:  $d-gray18;
-  --px-app-nav-link-hover-color:            $d-select-blue-hover;
-  --px-app-nav-link-active-color:           $d-gray8;
+  // Defaults
+  --px-base-text-color: $d-gray4;
+  --px-base-background-color: $d-gray17;
+  $inuit-base-text-color: $d-gray4;
+  $inuit-base-background-color: $d-gray17;
 
-  --px-app-nav-hamburger-button-color:      $d-gray12;
+  @import "px-defaults-design/_settings.defaults.scss";
+  @import "px-mixins-design/_tools.mixins.scss";
+
+  // Actionable Text & Icons
+  --px-actionable-text-color: $d-primary-blue;
+  --px-actionable-text-color--hover: $d-primary-blue-hover;
+  --px-actionable-text-color--active: $d-primary-blue-pressed;
+  --px-selectable-text-color: $d-select-blue-default;
+  --px-selectable-text-color--hover: $d-select-blue-hover;
+  --px-selectable-text-color--active: $d-select-blue-pressed;
+  --px-disabled-text-color: $d-gray15;
+
+  // Button Group
+  --px-btn-group-text-color: $d-gray4;
+  --px-btn-group-background-color: $d-select-blue-default;
+  --px-btn-group-background-color--hover: $d-select-blue-hover;
+  --px-btn-group-background-color--pressed: $d-select-blue-pressed;
+  --px-btn-group-border-color: $d-gray16;
+  --px-btn-group-border-color--hover: transparent;
+  --px-btn-group-border-color--pressed: transparent;
+
+  // Buttons - Martin
+  // TODO
+
+  // Code
+  --px-code-text-color: $d-gray4;
+  --px-code-background-color: $d-gray15;
+  --px-code-border-color: transparent;
+
+  // Forms
+  --px-input-text-color: $d-gray4;
+  --px-input-text-color--placeholder: $d-gray8;
+  --px-input-background-color: $d-gray16;
+  --px-input-border-color--inner: $d-gray14;
+  --px-input-border-color--outer: $d-gray16;
+  --px-input-border-color--inner--focused: $d-gray14;
+  --px-input-border-color--outer--focused: $d-primary-blue;
+  --px-input-text-color--disabled: $d-gray15;
+  --px-input-background-color--disabled: $d-gray17;
+  --px-input-border-color--disabled: $d-gray15;
+  // --px-input-text-color--readonly: TODO;
+  // --px-input-background-color--readonly: TODO;
+  // --px-input-border-color--readonly: TODO;
+  // --px-input-text-color--help: TODO;
+  --px-select-background-color: $d-gray14;
+  --px-select-text-color: $d-gray4;
+  // --px-select-chevron-color: $d-gray4;
+  --px-select-shadow-color--dark: rgba($d-black, .15);
+  --px-select-shadow-color--light: rgba($d-black, .15);
+  --px-select-text-color--disabled: $d-gray15;
+  // --px-select-chevron-color--disabled: $d-gray15;
+  --px-select-background-color--disabled: $d-gray17;
+  --px-select-background-color--hover: $d-gray12;
+  --px-select-border-color--hover: $d-gray14;
+  --px-select-background-color--pressed: $d-gray16;
+  --px-select-border-color--pressed: $d-gray18;
+  --px-multiselect-background-color: $d-gray14;
+  --px-validation-warning-text-color: $d-alert-orange;
+  --px-validation-error-text-color: $d-alert-red;
+  --px-validation-success-text-color: $d-alert-green;
+
+  // Input Group
+  --px-input-group-text-color: $d-gray8;
+  --px-input-group-icon-color: $d-gray8;
+
+  // List UI
+  --px-list-ui-border-color: $d-gray11;
+
+  // Tables
+  --px-table-border-color: $d-gray13;
+
+  // Toggle
+  --px-toggle-switch-color: $d-gray6;
+  --px-toggle-switch-border-color: $d-gray8;
+  --px-toggle-switch-shadow-color: rgba($d-black, .15);
+  --px-toggle-backgound-color--off: $d-gray17;
+  --px-toggle-border-color--off: $d-gray10;
+  --px-toggle-background-color--on: $d-select-blue-default;
+  --px-toggle-border-color--on: $d-select-blue-hover;
+
+
+  /********************************/
+  /* Dark Theme for Px Components */
+  /********************************/
+
+  // Alert Label
+  --px-alert-label-text-color--alert: $d-white;
+  --px-alert-label-background-color--alert: $d-alert-red;
+  --px-alert-label-text-color--warning: $d-white;
+  --px-alert-label-background-color--warning: $d-alert-orange;
+  --px-alert-label-text-color--error: $d-white;
+  --px-alert-label-background-color--error: $d-alert-yellow;
+  --px-alert-label-text-color--info: $d-white;
+  --px-alert-label-background-color--info: $d-alert-blue;
+  --px-alert-label-text-color--healthy: $d-white;
+  --px-alert-label-background-color--healthy: $d-black;
+  --px-alert-label-border-color--healthy: transparent;
+  --px-alert-label-text-color--inverted: $d-black;
+  --px-alert-label-background-color--inverted: $d-gray4;
+  --px-alert-label-text-color--unknown: $d-white;
+  --px-alert-label-background-color--unknown: $d-gray15;
+
+  // Alert Message
+  --px-alert-message-background-color: $d-black;
+  --px-alert-message-icon-outline-color: transparent;
+  --px-alert-message-icon-text-color: $d-white;
+  --px-alert-message-alert-color: $d-alert-red;
+  --px-alert-message-warning-color: $d-alert-orange;
+  --px-alert-message-error-color: $d-alert-yellow;
+  --px-alert-message-info-color: $d-alert-blue;
+  --px-alert-message-dismiss-icon-color: $d-gray16;
+
+  // App Nav - Martin
+  // TODO
+
+  // Card
+  --px-card-border-color: $d-gray15;
+  --px-card-background-color: $d-gray17;
+
+  // Deck Selector
+  --px-deck-selector-border-color: $d-gray15;
+  --px-deck-selector-background-color: $d-gray15;
+  --px-deck-selector-text-color: $d-gray4;
+  --px-deck-selector-hover-background-color: $d-select-blue-hover;
+  --px-deck-selector-hover-text-color: $d-gray4;
+
+  // Widget Cards
+  --px-widget-border-color: $d-gray15;
+
+  //// Charts
+
+  // Percent Circle
+  --px-percent-circle-fill-color: $d-dv-muted-6;
+  --px-percent-circle-background-color: $d-gray15;
+  --px-percent-circle-text-color: $d-gray4;
+
+  // Simple Bar Chart
+  // TODO
+
+  // Simple Horizontal Bar Chart
+  // TODO
+
+  // Simple Line Chart
+  // TODO
+
+  // Simple Win-Loss Chart
+  --px-win-loss-border-color: $d-gray15;
+  --px-win-loss-background-color: $d-gray17;
+  --px-win-loss-positive-fill-color: $d-alert-green;
+  --px-win-loss-negative-fill-color: $d-alert-red;
+
+  // Chart
+  // TODO
+
+  // Vis Framework
+  // TODO
+
+  // Vis Parallel Coordinates
+  // TODO
+
+  // Vis Pie Chart
+  // TODO
+
+  // Vis Polar Chart
+  // TODO
+
+  // Vis Radar Chart
+  // TODO
+
+  // Vis Spark
+  // TODO
+
+  // Vis Timeseries
+  // TODO
+
+  // Vis XY Chart
+  // TODO
+
+  // Clipboard
+  --px-clipboard-icon-color: $d-primary-blue;
+  --px-clipboard-icon-color--hover: $d-primary-blue-hover;
+  --px-clipboard-icon-color--pressed: $d-primary-blue-pressed;
+  --px-clipboard-icon-color--copied: $d-alert-green;
+
+  // Context Browser
+  --px-cb-background-color: $d-gray17;
+  --px-cb-modal-color: $d-gray18;
+  --px-cb-scrollbar-track-color: $d-gray16;
+  --px-cb-scrollbar-thumb-color: $d-gray11;
+  --px-cb-border-color: $d-gray15;
+  --px-cb-background-color--selected: $d-select-blue-default;
+  --px-cb-text-color--selected: $d-gray4;
+  --px-cb-background-color--secondary: $d-gray16;
+
+  // Data Table
+  --px-data-table-border-color: $d-gray13;
+  --px-data-table-cell-border-color: $d-gray13;
+  --px-data-table-cell-border-validation--failed: $d-alert-red;
+  --px-data-table-cell-border-color--edit: $d-gray14;
+  --px-data-table-cell-border-color--selected: $d-select-blue-default;
+  --px-data-table-cell-background-color--selected: $d-select-blue-default;
+  --px-data-table-cell-background-color--edit: $d-gray16;
+  --px-data-table-background-color-striped--even: $d-gray15;
+  --px-data-table-row-border-top-color--selected: $d-select-blue-default;
+  --px-data-table-row-border-bottom-color--selected: $d-select-blue-default;
+  --px-data-table-cell-text-color--selected: $d-gray4;
+  --px-data-table-cell-text-color-validation--failed: $d-alert-red;
+  --px-data-table-cell-text-color--sorted: $d-select-blue-default;
+  --px-data-table-cell-border-validation--failed: $d-alert-red;
+  --px-data-table-results-text-color--none: $d-gray4;
+  --px-data-table-btn-pagination-number-background-color: $d-select-blue-default;
+  --px-data-table-btn-pagination-number-text-color: $d-gray4;
+  --px-data-table-btn-pagination-number-background-color--hover: $d-select-blue-hover;
+  --px-data-table-btn-pagination-number-text-color--hover: $d-gray4;
+  --px-data-table-insertion-indicator-td-background-color: $d-primary-blue;
+  --px-data-table-text-input-background-color--filter: $d-gray14;
+  --px-data-table-text-color--dragged: $d-primary-blue;
+  --cell--value__highlight--color__high: $d-alert-red;
+  --cell--value__highlight--color__medium: $d-alert-yellow;
+  --cell--value__highlight--color__low: $d-alert-blue;
+
+  //// Datetime Components
+
+  // Calendar Picker
+  --px-calendar-background-color: $d-primary-blue;
+  --px-calendar-background-color--hover: $d-primary-blue-hover;
+  --px-calendar-background-color--pressed: $d-primary-blue-pressed;
+  --px-calendar-background-color--selected: $d-select-blue-default;
+  --px-calendar-background-color--selected--hover: $d-select-blue-hover;
+  --px-calendar-background-color--selected--pressed: $d-select-blue-pressed;
+  --px-calendar-text-color--hover: $d-gray4;
+  --px-calendar-text-color--selected: $d-gray4;
+  --px-calendar-alt-background-color: $d-gray15;
+
+  // Datetime Field
+  --px-datetime-border-color-validation--failed: $d-alert-red;
+
+  // Datetime Picker
+  --px-datetime-picker-background-color: $d-primary-blue;
+  --px-datetime-picker-background-color--hover: $d-primary-blue-hover;
+  --px-datetime-picker-background-color--pressed: $d-primary-blue-pressed;
+  --px-datetime-picker-border-color: $d-gray13;
+  --px-datetime-picker-overlay-color: rgba($d-black, 0.15);
+
+  // Datetime Range Field
+  --px-datetime-range-field-text-color-validation--failed: $d-alert-red;
+  --px-datetime-range-field-to-color: $d-gray11;
+
+  // Datetime Range Panel
+  --px-range-panel-border-color: $d-gray13;
+  --px-range-panel-background-color: $d-gray17;
+  --px-range-panel-text-color: $d-gray4;
+  --px-range-panel-overlay-color: rgba($d-black,0.15);
+  --px-range-panel-background-color--hover: $d-primary-blue;
+  --px-range-panel-background-color--pressed: $d-primary-blue-pressed;
+  --px-range-panel-text-color--selected: $d-select-blue-default;
+  --px-range-panel-text-color--selected--hover: $d-select-blue-hover;
+  --px-range-panel-text-color--selected--pressed: $d-select-blue-pressed;
+
+  // Rangepicker
+  --px-rangepicker-overlay-color: rgba($d-black, 0.15);
+
+  // Dropdown
+  --px-dropdown-bg-color--default: $d-gray14;
+  --px-dropdown-border-color: $d-gray16;
+  --px-dropdown-bg-color--hover: $d-gray12;
+  --px-dropdown-text-color--hover: $d-gray4;
+  --px-dropdown-text-color--pressed: $d-gray4;
+  --px-dropdown-bg-color--disabled: $d-gray17;
+  --px-dropdown-text-color--disabled: $d-gray15;
+  --px-dropdown-border-color--disabled: $d-gray15;
+  --px-dropdown-bg-color--opened: $d-gray16;
+  --px-dropdown-text--opened: $d-gray4;
+  --px-dropdown-list-item-background-color: $d-select-blue-default;
+  --px-dropdown-list-item-text-color: $d-gray4;
+  --px-dropdown-content-background-color: $d-gray18;
+  --px-dropdown-content-border-color: $d-gray19;
+  --px-dropdown-content-text-color: $d-gray4;
+
+  // File Upload
+  --px-file-upload-validation-color: $d-alert-red;
+  --px-file-upload-dropzone-background-color: $d-gray15;
+  --px-file-upload-dropzone-border-color: rgba($d-black, .15);
+
+  // Inbox
+  --px-inbox-border-color: $d-gray15;
+  --px-inbox-secondary-text-color: $d-gray10;
+  --px-inbox-li-background-color: $d-gray15;
+  --px-inbox-li-background-color--selected: $d-select-blue-default;
+  --px-inbox-li-text-color--selected: $d-gray4;
+  --px-inbox-icon-outline-color: $d-white;
+  --px-inbox-alert-color: $d-alert-red;
+  --px-inbox-warning-color: $d-alert-orange;
+  --px-inbox-error-color: $d-alert-yellow;
+  --px-inbox-information-color: $d-alert-blue;
+
+  // KPI
+  --px-kpi-text-color: $d-gray4;
+
+  // Login
+  --px-login-border-color: $d-gray15;
+  --px-login-text-color: $d-gray4;
+  --px-login-text-color--hover: $d-gray4;
+  --px-login-background-color: $d-gray15;
+  --px-login-background-color--hover: $d-select-blue-hover;
+
+  // Modal
+  --px-modal-background-color: $d-gray18;
+  --px-modal-overlay-color: rgba($d-black, .15);
+  --px-modal-border-color: $d-gray11;
+
+  // Overlay
+  --px-overlay-base-color: $d-black;
+  --px-overlay-light-alpha: 0.15;
+  --px-overlay-dark-alpha: 0.65;
+
+  // Popover
+  --px-popover-background-color: $d-gray17;
+  --px-popover-border-color: $d-gray19;
+  --px-popover-text-color: $d-gray4;
+
+  // Progress Bar
+  --px-progress-bar-fill-color: $d-select-blue-default;
+  --px-progress-bar-stripe-color: $d-select-blue-hover;
+  --px-progress-bar-background-color: $d-gray18;
+
+  // Slider
+  --px-slider-border-color: $d-gray14;
+  --px-slider-background-color: $d-gray16;
+  --px-slider-border-color--selected: $d-select-blue-pressed;
+  --px-slider-background-color--selected: $d-select-blue-default;
+  --px-handle-border-color: $d-gray16;
+  --px-handle-border-color--disabled: $d-gray15;
+  --px-handle-stroke-color: $d-gray16;
+  --px-handle-background-color: $d-gray14;
+  --px-handle-background-color--hover: $d-gray12;
+  --px-handle-shadow-color: $d-black;
+
+  // Spinner
+  --px-spinner-fill-color: $d-select-blue-default;
+  --px-spinner-background-color: $d-gray18;
+
+  // Tabs (these dark variables may be off?)
+  --px-tab-background-color: $d-gray17;
+  --px-tab-background-color--selected: $d-gray17;
+  --px-tab-text-color: $d-gray4;
+  --px-tab-text-color--selected: $d-select-blue-default;
+  --px-tab-text-color--bare: $d-gray4;
+  --px-tab-border-color: $d-gray14;
+  --px-tab-border-color--bare: $d-gray14;
+
+  // Tooltip
+  --px-tooltip-background-color: $d-black;
+  --px-tooltip-text-color: $d-gray4;
+
+  // Typeahead
+  --px-typeahead-background-color: $d-gray18;
+  --px-typeahead-background-color--selected: $d-select-blue-default;
+  --px-typeahead-border-color: $d-gray14;
+  --px-typeahead-border-color--focus: $d-select-blue-default;
+  --px-typeahead-box-shadow-color: $d-black;
+  --px-typeahead-box-shadow-color--focus: $d-black;
+  --px-typeahead-text-color: $d-gray4;
+  --px-typeahead-text-color--selected: $d-gray4;
+
+  // View Header
+  --px-view-header-background-color: $d-gray17;
 
 
   --px-font-family: $predix-font-family;
-  font-family: $predix-font-family;
 
 }
 
 html {
   font-family: $predix-font-family;
   font-size: $inuit-base-font-size;
+}
+
+:host {
+  font-family: $predix-font-family;
 }
