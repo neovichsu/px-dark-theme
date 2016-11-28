@@ -96,18 +96,11 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
 @import "px-typography-design/_base.typography.scss";
 
-html {
-  color: $d-gray4;
-  background-color: $d-gray17;
-}
-
 :root{
 
   // Defaults
   --px-base-text-color: $d-gray4;
   --px-base-background-color: $d-gray17;
-  $inuit-base-text-color: $d-gray4;
-  $inuit-base-background-color: $d-gray17;
 
   @import "px-defaults-design/_settings.defaults.scss";
   @import "px-mixins-design/_tools.mixins.scss";
@@ -127,16 +120,42 @@ html {
   --px-btn-group-background-color--hover: $d-select-blue-hover;
   --px-btn-group-background-color--pressed: $d-select-blue-pressed;
   --px-btn-group-border-color: $d-gray16;
-  --px-btn-group-border-color--hover: transparent;
-  --px-btn-group-border-color--pressed: transparent;
+  --px-btn-group-border-color--hover: rgba($d-black, 0);
+  --px-btn-group-border-color--pressed: rgba($d-black, 0);
 
-  // Buttons - Martin
-  // TODO
+  // Buttons
+  --px-btn-border-color: $d-gray16;
+  --px-btn-border-color--hover: $d-gray14;
+  --px-btn-border-color--pressed: $d-gray18;
+  --px-btn-shadow--light: rgba($d-black, 0.15);
+  --px-btn-background: $d-gray14;
+  --px-btn-background--hover: $d-gray12;
+  --px-btn-background--pressed: $d-gray16;
+  --px-btn-color: $d-gray4;
+  --px-btn-shadow: rgba($d-black, 0.15);
+  --px-btn-bare-color--visited: $d-gray4;
+  --px-btn-bare-color--hover: $d-primary-blue-hover;
+  --px-btn-bare-color--pressed: $d-primary-blue-pressed;
+  --px-btn-primary-bare-color--visited: $d-primary-blue-pressed;
+  --px-btn-primary-bare-color--hover: $d-primary-blue-hover;
+  --px-btn-primary-bare-color--pressed: $d-primary-blue-pressed;
+  --px-btn-primary-border-color: $d-primary-blue-hover;
+  --px-btn-primary-background: $d-primary-blue;
+  --px-btn-primary-background--hover: $d-primary-blue-hover;
+  --px-btn-primary-background--pressed: $d-primary-blue-pressed;
+  --px-btn-primary-color: $d-gray4;
+  --px-btn-tertiary-background: $d-gray17;
+  --px-btn-tertiary-color: $d-primary-blue;
+  --px-btn-tertiary-background--hover: $d-gray17;
+  --px-btn-tertiary-background--pressed: $d-gray17;
+  --px-btn-disabled-border-color: $d-gray15;
+  --px-btn-disabled-background: $d-gray17;
+  --px-btn-disabled-color: $d-gray15;
 
   // Code
   --px-code-text-color: $d-gray4;
   --px-code-background-color: $d-gray15;
-  --px-code-border-color: transparent;
+  --px-code-border-color: rgba($d-black, 0);
 
   // Forms
   --px-input-text-color: $d-gray4;
@@ -205,7 +224,7 @@ html {
   --px-alert-label-background-color--info: $d-alert-blue;
   --px-alert-label-text-color--healthy: $d-white;
   --px-alert-label-background-color--healthy: $d-black;
-  --px-alert-label-border-color--healthy: transparent;
+  --px-alert-label-border-color--healthy: rgba($d-black, 0);
   --px-alert-label-text-color--inverted: $d-black;
   --px-alert-label-background-color--inverted: $d-gray4;
   --px-alert-label-text-color--unknown: $d-white;
@@ -213,7 +232,7 @@ html {
 
   // Alert Message
   --px-alert-message-background-color: $d-black;
-  --px-alert-message-icon-outline-color: transparent;
+  --px-alert-message-icon-outline-color: rgba($d-black, 0);
   --px-alert-message-icon-text-color: $d-white;
   --px-alert-message-alert-color: $d-alert-red;
   --px-alert-message-warning-color: $d-alert-orange;
