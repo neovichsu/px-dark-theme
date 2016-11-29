@@ -265,10 +265,14 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-percent-circle-text-color: $d-gray4;
 
   // Simple Bar Chart
-  // TODO
+  --px-simple-bar-chart-text-color: $d-gray4;
+  --px-simple-bar-chart-background-color: $d-gray17;
 
   // Simple Horizontal Bar Chart
-  // TODO
+  --px-simple-horizontal-bar-chart-background-color: $d-gray17;
+  --px-simple-horizontal-bar-chart-legend-text-color: $d-gray4;
+  --px-simple-horizontal-bar-chart-label-text-color: $d-gray4;
+  --px-simple-horizontal-bar-chart-axis-color: $d-gray15;
 
   // Simple Line Chart
   // TODO
@@ -454,10 +458,6 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-progress-bar-fill-color: $d-select-blue-default;
   --px-progress-bar-stripe-color: $d-select-blue-hover;
   --px-progress-bar-background-color: $d-gray18;
-
-  //simple-bar-chart
-  --px-simple-bar-chart-text-color: $d-gray4;
-  --px-simple-bar-chart-background-color: $d-gray17;
 
   // Slider
   --px-slider-border-color: $d-gray14;
