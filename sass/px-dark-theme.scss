@@ -306,33 +306,6 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-win-loss-positive-fill-color: $d-alert-green;
   --px-win-loss-negative-fill-color: $d-alert-red;
 
-  // Chart
-  // TODO
-
-  // Vis Framework
-  // TODO
-
-  // Vis Parallel Coordinates
-  // TODO
-
-  // Vis Pie Chart
-  // TODO
-
-  // Vis Polar Chart
-  // TODO
-
-  // Vis Radar Chart
-  // TODO
-
-  // Vis Spark
-  // TODO
-
-  // Vis Timeseries
-  // TODO
-
-  // Vis XY Chart
-  // TODO
-
   // Clipboard
   --px-clipboard-icon-color: $d-primary-blue;
   --px-clipboard-icon-color--hover: $d-primary-blue-hover;
@@ -513,6 +486,10 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-tooltip-background-color: $d-black;
   --px-tooltip-text-color: $d-gray4;
 
+  --px-tooltip-light-background-color: $d-gray15;
+  --px-tooltip-light-text-color: $d-gray4;
+
+
   // Typeahead
   --px-typeahead-background-color: $d-gray18;
   --px-typeahead-background-color--selected: $d-select-blue-default;
@@ -528,6 +505,70 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
 
   --px-font-family: $predix-font-family;
+
+
+  // Vis
+  --px-vis-gridlines-color : $d-gray15;
+
+  --px-vis-axis-color : $d-gray9;
+  --px-vis-axis-title-color : $d-gray9;
+
+  --px-vis-axis-inline-title-color : $d-gray11;
+  --px-vis-axis-inline-type-color : $d-gray4;
+  --px-vis-axis-inline-box-color : $d-gray15;
+
+  --px-vis-nav-brush-outline-color : $d-gray9;
+  --px-vis-nav-brush-fill-color : $d-gray13;
+
+  --px-vis-cursor-line-color : $d-gray10;
+
+  --px-vis-brush-outline-color : $d-primary-blue;
+
+  --px-vis-event-line-color :  $d-gray10;
+  --px-vis-event-icon-color :  $d-gray10;
+
+  // Vis CSS
+  --px-vis-pie-title-name : $d-gray11;
+  --px-vis-pie-title-data : $d-gray4;
+
+  --px-vis-register-series-name : $d-gray11;
+  --px-vis-register-data-value : $d-gray4;
+  --px-vis-register-muted : $d-gray4;
+
+  // Vis Data Vis
+  // Colors MUST start at 0 and cannot contain gaps. 
+  --px-vis-series-color-0 : $d-dv-basic-1;
+  --px-vis-series-color-1 : $d-dv-basic-2;
+  --px-vis-series-color-2 : $d-dv-basic-3;
+  --px-vis-series-color-3 : $d-dv-basic-4;
+  --px-vis-series-color-4 : $d-dv-basic-5;
+  --px-vis-series-color-5 : $d-dv-basic-6;
+  --px-vis-series-color-6 : $d-dv-basic-7;
+  --px-vis-series-color-7 : $d-dv-basic-8;
+  --px-vis-series-color-8 : $d-dv-basic-9;
+  --px-vis-series-color-9 : $d-dv-basic-10;
+
+  --px-vis-series-color-10 : $d-dv-bright-1;
+  --px-vis-series-color-11 : $d-dv-bright-2;
+  --px-vis-series-color-12 : $d-dv-bright-3;
+  --px-vis-series-color-13 : $d-dv-bright-4;
+  --px-vis-series-color-14 : $d-dv-bright-5;
+  --px-vis-series-color-15 : $d-dv-bright-6;
+  --px-vis-series-color-16 : $d-dv-bright-7;
+  --px-vis-series-color-17 : $d-dv-bright-8;
+  --px-vis-series-color-18 : $d-dv-bright-9;
+  --px-vis-series-color-19 : $d-dv-bright-10;
+
+  --px-vis-series-color-20 : $d-dv-muted-1;
+  --px-vis-series-color-21 : $d-dv-muted-2;
+  --px-vis-series-color-22 : $d-dv-muted-3;
+  --px-vis-series-color-23 : $d-dv-muted-4;
+  --px-vis-series-color-24 : $d-dv-muted-5;
+  --px-vis-series-color-25 : $d-dv-muted-6;
+  --px-vis-series-color-26 : $d-dv-muted-7;
+  --px-vis-series-color-27 : $d-dv-muted-8;
+  --px-vis-series-color-28 : $d-dv-muted-9;
+  --px-vis-series-color-29 : $d-dv-muted-10;
 
 }
 
