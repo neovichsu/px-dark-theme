@@ -473,7 +473,7 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-spinner-fill-color: $d-select-blue-default;
   --px-spinner-background-color: $d-gray18;
 
-  // Tabs (these dark variables may be off?)
+  // Tabs
   --px-tab-background-color: $d-gray17;
   --px-tab-background-color--selected: $d-gray17;
   --px-tab-text-color: $d-gray4;
@@ -481,6 +481,7 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-tab-text-color--bare: $d-gray4;
   --px-tab-border-color: $d-gray14;
   --px-tab-border-color--bare: $d-gray14;
+  --px-tab-border-color--selected: $d-gray14;
 
   // Tooltip
   --px-tooltip-background-color: $d-black;
@@ -536,7 +537,7 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-vis-register-muted : $d-gray4;
 
   // Vis Data Vis
-  // Colors MUST start at 0 and cannot contain gaps. 
+  // Colors MUST start at 0 and cannot contain gaps.
   --px-vis-series-color-0 : $d-dv-basic-1;
   --px-vis-series-color-1 : $d-dv-basic-2;
   --px-vis-series-color-2 : $d-dv-basic-3;
