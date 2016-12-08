@@ -508,7 +508,9 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
 
   // Vis
-  --px-vis-gridlines-color : $d-gray15;
+  --px-vis-axis-brush-outline-color : $d-primary-blue;
+  --px-vis-axis-brush-fill-color : $d-black;
+  --px-vis-axis-brush-fill-opacity : 20%;
 
   --px-vis-axis-color : $d-gray9;
   --px-vis-axis-title-color : $d-gray9;
@@ -519,13 +521,15 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
   --px-vis-nav-brush-outline-color : $d-gray9;
   --px-vis-nav-brush-fill-color : $d-gray13;
+  --px-vis-nav-brush-handle-fill-color : $d-gray17;
+  --px-vis-nav-brush-handle-lines-color : $d-gray9;
 
   --px-vis-cursor-line-color : $d-gray10;
 
-  --px-vis-brush-outline-color : $d-primary-blue;
-
   --px-vis-event-line-color :  $d-gray10;
   --px-vis-event-icon-color :  $d-gray10;
+
+  --px-vis-gridlines-color : $d-gray15;
 
   // Vis CSS
   --px-vis-pie-title-name : $d-gray11;
@@ -533,10 +537,10 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
   --px-vis-register-series-name : $d-gray11;
   --px-vis-register-data-value : $d-gray4;
-  --px-vis-register-muted : $d-gray4;
+  --px-vis-register-muted : $d-gray15;
 
   // Vis Data Vis
-  // Colors MUST start at 0 and cannot contain gaps. 
+  // Colors MUST start at 0 and cannot contain gaps.
   --px-vis-series-color-0 : $d-dv-basic-1;
   --px-vis-series-color-1 : $d-dv-basic-2;
   --px-vis-series-color-2 : $d-dv-basic-3;
