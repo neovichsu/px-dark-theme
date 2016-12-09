@@ -489,7 +489,7 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
   --px-tooltip-light-background-color: $d-gray15;
   --px-tooltip-light-text-color: $d-gray4;
-  --px-tooltip-light-border-color: $d-gray15;
+  --px-tooltip-light-border-color: transparent;
 
   // Typeahead
   --px-typeahead-background-color: $d-gray18;
@@ -541,6 +541,8 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-vis-gridlines-color : $d-gray15;
 
   --px-vis-pie-empty-color : $d-gray15;
+
+  --px-vis-threshold-color :  $d-gray7;
 
   --px-vis-zoom-brush-outline-color : $d-primary-blue;
   --px-vis-zoom-brush-fill-color : $d-gray2;
