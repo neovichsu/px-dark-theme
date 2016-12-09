@@ -488,7 +488,7 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
   --px-tooltip-light-background-color: $d-gray15;
   --px-tooltip-light-text-color: $d-gray4;
-
+  --px-tooltip-light-border-color: $d-gray15;
 
   // Typeahead
   --px-typeahead-background-color: $d-gray18;
@@ -528,7 +528,9 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-vis-nav-brush-handle-fill-color : $d-gray17;
   --px-vis-nav-brush-handle-lines-color : $d-gray9;
   --px-vis-nav-brush-handle-fill-color-hover : $d-gray12;
+  --px-vis-nav-brush-handle-lines-color-hover : $d-gray9;
   --px-vis-nav-brush-handle-fill-color-press : $d-gray16;
+  --px-vis-nav-brush-handle-lines-color-press : $d-gray12;
 
   --px-vis-cursor-line-color : $d-gray10;
 
@@ -536,6 +538,8 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-vis-event-icon-color :  $d-gray7;
 
   --px-vis-gridlines-color : $d-gray15;
+
+  --px-vis-pie-empty-color : $d-gray15;
 
   --px-vis-zoom-brush-outline-color : $d-primary-blue;
   --px-vis-zoom-brush-fill-color : $d-gray2;
