@@ -263,8 +263,13 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-alert-message-info-color: $d-alert-blue;
   --px-alert-message-dismiss-icon-color: $d-gray16;
 
-  // App Nav - Martin
-  // TODO
+  // App Nav
+  --px-app-nav-background-color : $d-gray19;
+  --px-app-nav-link-text-color : $d-gray12;
+  --px-app-nav-link-selected-color : $d-gray18;
+  --px-app-nav-link-hover-color : $d-gray18;
+  --px-app-nav-link-selected-active-color : $d-gray18;
+  --px-app-nav-hamburger-button-color : $d-gray12;
 
   // Card
   --px-card-border-color: $d-gray15;
