@@ -598,6 +598,13 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-vis-series-color-28 : $d-dv-muted-9;
   --px-vis-series-color-29 : $d-dv-muted-10;
 
+  // Seed App styles
+  --px-seed-app-main-content-area-background-color : $d-gray18;
+  --px-seed-app-logo-color : $d-gray7;
+  --px-seed-header-text-color : $d-gray7;
+  --px-seed-header-background-color : $d-gray18;
+  --px-seed-footer-background-color : $d-gray18;
+
 }
 
 html {
