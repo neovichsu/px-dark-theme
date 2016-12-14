@@ -303,7 +303,15 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-simple-horizontal-bar-chart-axis-color: $d-gray15;
 
   // Simple Line Chart
+  --px-simple-line-chart-background-color: transparent;
+  --px-simple-line-chart-border-color: $d-gray9;
+  --px-simple-line-chart-grid-color: $d-gray15;
+  --px-simple-line-chart-bottom-color: transparent;
+  --px-simple-line-chart-axis-bar-color: $d-gray16;
   --px-simple-line-chart-axis-label-color: $d-gray9;
+  --px-simple-line-chart-axis-label-font-weight: lighter;
+  --px-simple-line-chart-line-color: $d-dv-basic-2;
+  --px-simple-line-chart-theshold-line-color: $dv-basic-orange;
 
   // Simple Win-Loss Chart
   --px-win-loss-border-color: $d-gray15;
