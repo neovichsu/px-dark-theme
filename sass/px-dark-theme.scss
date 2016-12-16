@@ -377,6 +377,9 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-calendar-text-color--selected: $d-gray4;
   --px-calendar-alt-background-color: $d-gray15;
 
+  // Datetime Common
+  --px-datetime-entry-selected: $d-select-blue-default;
+
   // Datetime Field
   --px-datetime-border-color-validation--failed: $d-alert-red;
 
