@@ -1,3 +1,7 @@
+v0.0.5
+=================
+* updated some of the alert colors to match the design
+
 v0.0.4
 =================
 * Add colors for seed app.
