@@ -138,6 +138,9 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-selectable-text-color: $d-select-blue-default;
   --px-selectable-text-color--hover: $d-select-blue-hover;
   --px-selectable-text-color--active: $d-select-blue-pressed;
+  --px-actionable-alt-text-color: $d-gray12;
+  --px-actionable-alt-text-color--hover: $d-primary-blue-hover;
+  --px-actionable-alt-text-color--active: $d-primary-blue-pressed;
   --px-disabled-text-color: $d-gray15;
 
   // Button Group
@@ -376,9 +379,12 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-calendar-background-color--selected: $d-select-blue-default;
   --px-calendar-background-color--selected--hover: $d-select-blue-hover;
   --px-calendar-background-color--selected--pressed: $d-select-blue-pressed;
+  --px-calendar-text-color: $d-gray4;
   --px-calendar-text-color--hover: $d-gray4;
   --px-calendar-text-color--selected: $d-gray4;
   --px-calendar-alt-background-color: $d-gray15;
+  --px-calendar-labels--text-color :$d-gray11;
+  --px-calendar-sub-labels--text-color : $d-gray11;
 
   // Datetime Common
   --px-datetime-entry-selected: $d-select-blue-default;
@@ -619,6 +625,21 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-seed-header-background-color : $d-gray18;
   --px-seed-footer-background-color : $d-gray18;
 
+  // Demo Pages styles
+  --px-demo-interactive-background-color : $d-gray19;
+  --px-demo-properties-background-color : $d-gray17;
+  --px-demo-properties-border-color : $d-black;
+  --px-demo-component-background-color : $d-gray17;
+  // --px-demo-api-background-color : $d-gray9;
+
+  //Footer styles
+  --px-footer-background-color : $d-gray18;
+  --px-footer-text-color : $d-gray11;
+  --px-footer-text-color--hover : $d-gray13;
+  --px-footer-text-color--pressed : $d-gray15;
+
+  //Demo Snippet
+  --px-demo-snippet-background-color : $d-gray20;
 }
 
 html {

@@ -1,3 +1,7 @@
+v0.0.6
+=================
+* added actionable-alt, demo, footer, demosnippet, and more calendar variables
+
 v0.0.5
 =================
 * updated some of the alert colors to match the design
