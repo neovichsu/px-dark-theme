@@ -1,3 +1,8 @@
+v0.0.7
+=================
+* replaced color variables with '_settings.colors-dark.scss'
+* removed demo-doc variables 
+
 v0.0.6
 =================
 * added actionable-alt, demo, footer, demosnippet, and more calendar variables

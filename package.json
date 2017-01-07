@@ -1,8 +1,8 @@
 {
   "name": "px-dark-theme",
   "author": "General Electric",
-  "description": "A component to apply a dark theme the Predix UI Sesign System",
-  "version": "0.0.6",
+  "description": "A component to apply a dark theme the Predix UI Design System",
+  "version": "0.0.7",
   "private": true,
   "extName": null,
   "repository": {
