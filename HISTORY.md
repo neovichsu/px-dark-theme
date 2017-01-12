@@ -1,3 +1,7 @@
+v1.0.0
+=================
+* updated dom-module id to "px-dark-theme-styles"
+
 v0.0.7
 =================
 * replaced color variables with '_settings.colors-dark.scss'
