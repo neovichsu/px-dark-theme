@@ -1,3 +1,7 @@
+v1.0.1
+=================
+* Corrected the color of --px-clipboard-icon-color 
+
 v1.0.0
 =================
 * updated dom-module id to "px-dark-theme-styles"
