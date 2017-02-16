@@ -1,6 +1,10 @@
+v1.0.2
+=================
+* fixed overlay variables
+
 v1.0.1
 =================
-* Corrected the color of --px-clipboard-icon-color 
+* Corrected the color of --px-clipboard-icon-color
 
 v1.0.0
 =================
@@ -9,7 +13,7 @@ v1.0.0
 v0.0.7
 =================
 * replaced color variables with '_settings.colors-dark.scss'
-* removed demo-doc variables 
+* removed demo-doc variables
 
 v0.0.6
 =================
