@@ -1,6 +1,11 @@
+v1.0.2
+=================
+* Corrected the variable names from --px-vis-pie-title-name to --px-vis-pie-title-color
+* Corrected the variable names from --px-vis-pie-title-data to --px-vis-pie-title-value-color
+
 v1.0.1
 =================
-* Corrected the color of --px-clipboard-icon-color 
+* Corrected the color of --px-clipboard-icon-color
 
 v1.0.0
 =================
@@ -9,7 +14,7 @@ v1.0.0
 v0.0.7
 =================
 * replaced color variables with '_settings.colors-dark.scss'
-* removed demo-doc variables 
+* removed demo-doc variables
 
 v0.0.6
 =================

@@ -467,8 +467,8 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
 
 
   // Vis CSS
-  --px-vis-pie-title-name : $d-gray11;
-  --px-vis-pie-title-data : $d-gray4;
+  --px-vis-pie-title-color : $d-gray11;
+  --px-vis-pie-title-value-color : $d-gray4;
 
   --px-vis-register-series-name : $d-gray11;
   --px-vis-register-data-value : $d-gray4;
@@ -516,7 +516,7 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-seed-header-text-color : $d-gray7;
   --px-seed-header-background-color : $d-gray18;
   --px-seed-footer-background-color : $d-gray18;
-  
+
 }
 
 html {
