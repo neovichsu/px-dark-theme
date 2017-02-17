@@ -1,3 +1,7 @@
+v1.0.4
+=================
+* removed unused vars from vis section
+
 v1.0.3
 =================
 * Corrected the variable names from --px-vis-pie-title-name to --px-vis-pie-title-color
