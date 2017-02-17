@@ -1,7 +1,11 @@
-v1.0.2
+v1.0.3
 =================
 * Corrected the variable names from --px-vis-pie-title-name to --px-vis-pie-title-color
 * Corrected the variable names from --px-vis-pie-title-data to --px-vis-pie-title-value-color
+
+v1.0.2
+=================
+* fixed overlay variables
 
 v1.0.1
 =================
