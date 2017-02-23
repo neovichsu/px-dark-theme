@@ -1,3 +1,7 @@
+v1.0.5
+=================
+* standardized style variable naming for dropdown
+
 v1.0.4
 =================
 * removed unused vars from vis section

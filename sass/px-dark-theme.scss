@@ -310,17 +310,19 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-demo-snippet-background-color : $d-gray19;
 
   // Dropdown
-  --px-dropdown-bg-color--default: $d-gray14;
-  --px-dropdown-text-color: $d-gray4;
-  --px-dropdown-border-color: $d-gray16;
+  --px-dropdown-bg-color: $d-gray14;
   --px-dropdown-bg-color--hover: $d-gray12;
+  --px-dropdown-bg-color--disabled: $d-gray17;
+  --px-dropdown-bg-color--opened: $d-gray16;
+  --px-dropdown-border-color: $d-gray16;
+  --px-dropdown-border-color--hover: $d-gray16;
+  --px-dropdown-border-color--opened: $d-gray16;
+  --px-dropdown-border-color--disabled: $d-gray15;
+  --px-dropdown-text-color: $d-gray4;
   --px-dropdown-text-color--hover: $d-gray4;
   --px-dropdown-text-color--pressed: $d-gray4;
-  --px-dropdown-bg-color--disabled: $d-gray17;
   --px-dropdown-text-color--disabled: $d-gray15;
-  --px-dropdown-border-color--disabled: $d-gray15;
-  --px-dropdown-bg-color--opened: $d-gray16;
-  --px-dropdown-text--opened: $d-gray4;
+  --px-dropdown-text-color--opened: $d-gray4;
   --px-dropdown-list-item-background-color: $d-select-blue-default;
   --px-dropdown-list-item-text-color: $d-gray4;
   --px-dropdown-content-background-color: $d-gray18;
