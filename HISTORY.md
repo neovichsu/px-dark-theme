@@ -1,3 +1,7 @@
+v1.0.6
+=================
+* added updated to px-input-design and px-deck-selector 
+
 v1.0.5
 =================
 * standardized style variable naming for dropdown

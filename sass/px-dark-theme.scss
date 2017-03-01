@@ -83,7 +83,7 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-input-border-color--outer: $d-gray16;
   --px-input-border-color--inner--focused: $d-gray14;
   --px-input-border-color--outer--focused: $d-primary-blue;
-  --px-input-text-color--disabled: $d-gray15;
+  --px-input-text-color--disabled: $d-gray13;
   --px-input-background-color--disabled: $d-gray17;
   --px-input-border-color--disabled: $d-gray15;
   // --px-input-text-color--readonly: TODO;
@@ -171,11 +171,12 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-card-background-color: $d-gray17;
 
   // Deck Selector
-  --px-deck-selector-border-color: $d-gray15;
-  --px-deck-selector-background-color: $d-gray15;
+  --px-deck-selector-border-color: $d-gray19;
+  --px-deck-selector-background-color: $d-gray18;
   --px-deck-selector-text-color: $d-gray4;
   --px-deck-selector-hover-background-color: $d-select-blue-hover;
   --px-deck-selector-hover-text-color: $d-gray4;
+  --px-deck-selector-li-border: $d-gray20;
 
   // Widget Cards
   --px-widget-border-color: $d-gray15;
