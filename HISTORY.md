@@ -1,3 +1,7 @@
+v1.0.7
+=================
+* updated data-table-tr--filter color
+
 v1.0.6
 =================
 * added updated to px-input-design and px-deck-selector 
