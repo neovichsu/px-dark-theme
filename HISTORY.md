@@ -1,3 +1,8 @@
+v1.0.8
+=================
+* updated disabled text from $d-gray15 to $d-gray13 
+* added --px-range-panel-dash
+
 v1.0.7
 =================
 * updated data-table-tr--filter color
