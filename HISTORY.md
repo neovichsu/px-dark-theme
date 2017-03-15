@@ -1,6 +1,10 @@
+v1.0.9
+=================
+* added gauge dark colors
+
 v1.0.8
 =================
-* updated disabled text from $d-gray15 to $d-gray13 
+* updated disabled text from $d-gray15 to $d-gray13
 * added --px-range-panel-dash
 
 v1.0.7
@@ -9,7 +13,7 @@ v1.0.7
 
 v1.0.6
 =================
-* added updated to px-input-design and px-deck-selector 
+* added updated to px-input-design and px-deck-selector
 
 v1.0.5
 =================

@@ -512,6 +512,15 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-vis-series-color-28 : $d-dv-muted-9;
   --px-vis-series-color-29 : $d-dv-muted-10;
 
+
+  // Gauge styles
+  --px-gauge-fill-error-color: $d-alert-red;
+  --px-gauge-fill-anomaly-color: $d-alert-yellow;
+  --px-gauge-fill-abnormal-color: $d-alert-orange;
+  --px-gauge-fill-normal-color: $d-alert-blue;
+  --px-gauge-empty-color: $d-gray15;
+  --px-gauge-needle-color: $d-black;
+
   // Seed App styles
   --px-seed-app-main-content-area-background-color : $d-gray18;
   --px-seed-app-logo-color : $d-gray7;
