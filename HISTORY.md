@@ -1,3 +1,7 @@
+v1.0.10
+=================
+* added px-vis-dynamic-menu colors
+
 v1.0.9
 =================
 * added gauge dark colors

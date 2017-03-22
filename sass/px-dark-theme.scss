@@ -440,6 +440,13 @@ $predix-font-family : "GE Inspira Sans", sans-serif !default;
   --px-vis-axis-inline-type-color : $d-gray4;
   --px-vis-axis-inline-box-color : $d-gray15;
 
+  --px-dynamic-menu-icon-color : $d-primary-blue;
+  --px-dynamic-menu-background-color : var(--px-dropdown-bg-color);
+  --px-dynamic-menu-border-color : var(--px-dropdown-border-color);
+  --px-dynamic-menu-text-color : var(--px-dropdown-text-color);
+  --px-dynamic-menu-item-background-color : var(--px-dropdown-list-item-background-color);
+  --px-dynamic-menu-item-text-color : var(--px-dropdown-list-item-text-color);
+
   --px-vis-nav-brush-outline-color : $d-gray9;
   --px-vis-nav-brush-fill-color : $d-gray2;
   --px-vis-nav-brush-opacity : 0.15;
