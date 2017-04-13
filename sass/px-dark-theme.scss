@@ -41,34 +41,56 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-btn-group-border-color--hover:
   // --px-btn-group-border-color--pressed:
   //
-  // // Buttons
-  // --px-btn-border-color:
-  // --px-btn-border-color--hover:
-  // --px-btn-border-color--pressed:
-  // --px-btn-shadow--light:
-  // --px-btn-background:
-  // --px-btn-background--hover:
-  // --px-btn-background--pressed:
-  // --px-btn-color:
-  // --px-btn-shadow:
-  // --px-btn-bare-color--visited:
-  // --px-btn-bare-color--hover:
-  // --px-btn-bare-color--pressed:
-  // --px-btn-primary-bare-color--visited:
-  // --px-btn-primary-bare-color--hover:
-  // --px-btn-primary-bare-color--pressed:
-  // --px-btn-primary-border-color:
-  // --px-btn-primary-background:
-  // --px-btn-primary-background--hover:
-  // --px-btn-primary-background--pressed:
-  // --px-btn-primary-color:
-  // --px-btn-tertiary-background:
-  // --px-btn-tertiary-color:
-  // --px-btn-tertiary-background--hover:
-  // --px-btn-tertiary-background--pressed:
-  // --px-btn-disabled-border-color:
-  // --px-btn-disabled-background:
-  // --px-btn-disabled-color:
+  // Buttons
+  --px-btn-border-color: transparent;
+  --px-btn-shadow--light: none;
+  --px-btn-background: $gray14;
+  --px-btn-color: $white;
+  --px-btn-border-color--hover: transparent;
+  --px-btn-shadow: none;
+  --px-btn-background--hover: $gray16;
+  --px-btn-border-color--pressed: transparent;
+  --px-btn-background--pressed: $gray19;
+
+  // --px-btn-bare-color--visited: $gray8;
+  // --px-btn-bare-color--hover: $primary-default;
+  // --px-btn-bare-color--pressed: $primary-pressed;
+  // --px-btn-primary-bare-color--visited: $primary-default;
+  // --px-btn-primary-bare-color--hover: $primary-hover;
+  // --px-btn-primary-bare-color--pressed: $primary-pressed;
+
+  --px-btn-primary-border-color: transparent;
+  --px-btn-shadow: none;
+  --px-btn-primary-background: $gray3;
+  --px-btn-primary-color: $gray15;
+  --px-btn-primary-background--hover: $gray6;
+  --px-btn-primary-background--pressed: $gray8;
+  --px-btn-border-color: transparent;
+  --px-btn-tertiary-background: transparent;
+  --px-btn-border-color: $gray10;
+  --px-btn-tertiary-color: $gray5;
+  --px-btn-border-color--hover: $gray10;
+  --px-btn-tertiary-background--hover: $gray14;
+  --px-btn-border-color--pressed: $gray10;
+  --px-btn-tertiary-background--pressed: $gray10;
+  --px-btn-call-to-action-color: $white;
+  --px-btn-call-to-action-border-color: transparent;
+  --px-btn-call-to-action-background: $d-primary_default;
+  --px-btn-call-to-action-background--hover: $d-primary_hover;
+  --px-btn-call-to-action-background--pressed: $d-primary_pressed;
+  --px-btn-call-to-action-disabled-background: $cyan10;
+  --px-btn-call-to-action-disabled-color: $white;
+  --px-btn-disabled-border-color: $gray15;
+  --px-btn-disabled-background: transparent;
+  --px-btn-disabled-color: $gray15;
+  // --px-btn-icon-border: $inuit-btn-icon-border;
+  // --px-btn-icon-background: $inuit-btn-icon-background;
+  // --px-btn-icon-color: $inuit-btn-icon-color;
+  // --px-btn-icon-background: $inuit-btn-icon-background;
+  // --px-btn-icon-color: $inuit-btn-icon-color;
+  // --px-btn-icon--hover: $inuit-btn-icon-color--hover;
+  // --px-btn-icon--pressed: $inuit-btn-icon-color--pressed;
+
   //
   // // Code
   // --px-code-text-color:
