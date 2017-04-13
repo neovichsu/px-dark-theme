@@ -1,4 +1,5 @@
-#px-dark-theme
+px-dark-theme
+-------------
 
 ## Overview
 
@@ -17,18 +18,25 @@ Node, npm and bower are necessary to install the component and dependencies. web
 
 ### Getting Started
 
-First, install the component via bower on the command line.
+First, install the style module via bower on the command line.
 
 ```
 bower install px-dark-theme --save
 ```
 
-Second, import the component to your application with the following tag in your head.
+Second, import the style module to your application with the following tag in your head.
 
 ```
-<link rel="import" href="/bower_components/px-dark-theme/px-dark-theme.html"/>
+<link rel="import" href="/bower_components/px-dark-theme/px-dark-theme-styles.html"/>
 ```
 
+Finally, use the style module in your application.
+
+```
+<style include="px-dark-theme-styles"></style>
+```
+
+Click [here](https://www.polymer-project.org/2.0/docs/devguide/style-shadow-dom#style-modules) to read more about Polymer style modules.
 
 ## Local Development
 
