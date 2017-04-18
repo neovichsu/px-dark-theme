@@ -20,17 +20,18 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   @import "px-defaults-design/_settings.defaults.scss";
   @import "px-mixins-design/_tools.mixins.scss";
 
-  // // Actionable Text & Icons
-  // --px-actionable-text-color:
-  // --px-actionable-text-color--hover:
-  // --px-actionable-text-color--active:
-  // --px-selectable-text-color:
-  // --px-selectable-text-color--hover:
-  // --px-selectable-text-color--active:
-  // --px-actionable-alt-text-color:
-  // --px-actionable-alt-text-color--hover:
-  // --px-actionable-alt-text-color--active:
-  // --px-disabled-text-color:
+  // Actionable Text & Icons
+  --px-actionable-text-color: $primary-default;
+  --px-actionable-text-color--hover: $primary-hover;
+  --px-actionable-text-color--active: $primary-pressed;
+  --px-selectable-text-color: $select-default;
+  --px-selectable-text-color--hover: $select-hover;
+  --px-selectable-text-color--active: $select-pressed;
+  --px-actionable-alt-text-color: $gray5;
+  --px-actionable-alt-text-color--hover: $primary-default;
+  --px-actionable-alt-text-color--active: $primary-pressed;
+  // --px-disabled-text-color: ;
+
   //
   // // Button Group
   // --px-btn-group-text-color:
@@ -148,13 +149,20 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-table-border-color:
   //
   // // Toggle
-  // --px-toggle-switch-color:
-  // --px-toggle-switch-border-color:
-  // --px-toggle-switch-shadow-color:
-  // --px-toggle-backgound-color--off:
-  // --px-toggle-border-color--off:
-  // --px-toggle-background-color--on:
-  // --px-toggle-border-color--on:
+  // --px-toggle-switch-color: $white;
+  // --px-toggle-switch-color-hover: $gray4;
+  // --px-toggle-switch-color-pressed: $gray7;
+  // --px-toggle-switch-border-color: $gray8;
+  // --px-toggle-switch-shadow-color: rgba($black, .15);
+  // --px-toggle-backgound-color-off: $white;
+  // --px-toggle-border-color-off: $gray8;
+  // --px-toggle-background-color-on: $primary-default;
+  // --px-toggle-border-color-on: $primary-default;
+  // --px-toggle-background-color-on-hover: $primary-hover;
+  // --px-toggle-background-color-on-pressed: $primary-pressed;
+  // --px-toggle-disabled-background: $white;
+  // --px-toggle-checked-disabled-background: $gray4;
+  // --px-toggle-disabled-border-color: $gray4;
   //
   //
   // /********************************/
