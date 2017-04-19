@@ -32,16 +32,16 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-actionable-alt-text-color--active: $primary-pressed;
   // --px-disabled-text-color: ;
 
-  //
-  // // Button Group
-  // --px-btn-group-text-color:
-  // --px-btn-group-background-color:
-  // --px-btn-group-background-color--hover:
-  // --px-btn-group-background-color--pressed:
-  // --px-btn-group-border-color:
-  // --px-btn-group-border-color--hover:
-  // --px-btn-group-border-color--pressed:
-  //
+
+  // Button Group
+  --px-btn-group-text-color: $white;
+  --px-btn-group-background-color: $select-default;
+  --px-btn-group-background-color--hover: $select-hover;
+  --px-btn-group-background-color--pressed: $select-pressed;
+  --px-btn-group-border-color: transparent;
+  --px-btn-group-border-color--hover: transparent;
+  --px-btn-group-border-color--pressed: transparent;
+
   // Buttons
   --px-btn-border-color: transparent;
   --px-btn-shadow--light: none;
@@ -97,39 +97,32 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-code-text-color:
   // --px-code-background-color:
   // --px-code-border-color:
-  //
-  // // Forms
-  // --px-input-text-color:
-  // --px-input-text-color--placeholder:
-  // --px-input-background-color:
-  // --px-input-border-color--inner:
-  // --px-input-border-color--outer:
-  // --px-input-border-color--inner--focused:
-  // --px-input-border-color--outer--focused:
-  // --px-input-text-color--disabled:
-  // --px-input-background-color--disabled:
-  // --px-input-border-color--disabled:
-  // // --px-input-text-color--readonly: TODO;
-  // // --px-input-background-color--readonly: TODO;
-  // // --px-input-border-color--readonly: TODO;
-  // // --px-input-text-color--help: TODO;
-  // --px-select-background-color:
-  // --px-select-text-color:
-  // // --px-select-chevron-color:
-  // --px-select-shadow-color--dark:
-  // --px-select-shadow-color--light:
-  // --px-select-text-color--disabled:
-  // // --px-select-chevron-color--disabled:
-  // --px-select-background-color--disabled:
-  // --px-select-background-color--hover:
-  // --px-select-border-color--hover:
-  // --px-select-background-color--pressed:
-  // --px-select-border-color--pressed:
-  // --px-multiselect-background-color:
-  // --px-validation-warning-text-color:
-  // --px-validation-error-text-color:
-  // --px-validation-success-text-color:
-  //
+
+  // Forms
+  --px-input-text-color: $gray5;
+  --px-input-text-color--placeholder: $gray15;
+  --px-input-background-color: transparent;
+  --px-input-background-color--hover: $gray15;
+  --px-input-background-color--disabled: transparent;
+  --px-input-background-color--focused: $primary-light;
+  --px-input-border-color--outer: $gray10;
+  --px-input-border-color--outer--focused: $primary-default;
+  --px-input-text-color--disabled: rgba($white, 0.2);
+  --px-input-border-color--disabled: rgba($white, 0.2);
+  --px-input-text-color--help: $gray5;
+  --px-select-background-color: $gray3;
+  --px-select-background-color--hover: $gray6;
+  --px-select-background-color--active: $gray8;
+  --px-select-border-color: transparent;
+  --px-select-text-color: $gray15;
+  --px-multiselect-background-color: $gray1;
+  --px-validation-warning-text-color: $status-orange3;
+  --px-validation-warning-background-color: $status-orange1;
+  --px-validation-error-text-color: $status-red3;
+  --px-validation-error-background-color: $status-red1;
+  --px-validation-success-text-color: $status-green3;
+  --px-validation-success-background-color: $status-green1;
+
   // Headings
   --px-headings-header-page-color: $gray5;
   --px-headings-header-section-color: $gray10;
@@ -141,10 +134,11 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // // Input Group
   // --px-input-group-text-color:
   // --px-input-group-icon-color:
-  //
-  // // List UI
-  // --px-list-ui-border-color:
-  //
+
+  // List UI
+  --px-list-ui-border-color: $gray10;
+  --px-list-ui-separator-color: $gray15;
+
   // // Tables
   // --px-table-border-color:
   //
@@ -430,17 +424,13 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // // Spinner
   // --px-spinner-fill-color:
   // --px-spinner-background-color:
-  //
-  // // Tabs
-  // --px-tab-background-color:
-  // --px-tab-background-color--selected:
-  // --px-tab-text-color:
-  // --px-tab-text-color--selected:
-  // --px-tab-text-color--bare:
-  // --px-tab-border-color:
-  // --px-tab-border-color--bare:
-  // --px-tab-border-color--selected:
-  //
+
+  // Tabs
+  --px-tab-text-color: $gray5;
+  --px-tab-text-color--selected: $select-default;
+  --px-tab-border-color: $gray15;
+  --px-tab-outline-style: none;
+
   // // Tooltip
   // --px-tooltip-background-color:
   // --px-tooltip-text-color:

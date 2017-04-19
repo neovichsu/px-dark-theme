@@ -3,7 +3,7 @@
   "author": "General Electric",
   "description": "A component to apply a dark theme the Predix UI Design System",
   "version": "1.0.10",
-  "private": true,
+  "private": false,
   "extName": null,
   "repository": {
     "type": "git",
