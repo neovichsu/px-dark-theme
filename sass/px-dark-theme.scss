@@ -91,29 +91,34 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-code-border-color:
 
   // Forms
+  // Forms
   --px-input-text-color: $gray5;
+  --px-input-label-text-color: $gray10;
   --px-input-text-color--placeholder: $gray15;
+  --px-input-text-color--help: $gray10;
   --px-input-background-color: transparent;
   --px-input-background-color--hover: $gray15;
+  --px-input-background-color--focused: $primary-light;
   --px-input-background-color--disabled: transparent;
-  --px-input-background-color--focused: $d-primary-light;
   --px-input-border-color--outer: $gray10;
   --px-input-border-color--outer--focused: $d-primary-default;
+  --px-input-text-color--focused: $gray15;
   --px-input-text-color--disabled: rgba($white, 0.2);
   --px-input-border-color--disabled: rgba($white, 0.2);
-  --px-input-text-color--help: $gray5;
+  --px-input-textarea-background--focused: $gray3;
+  --px-select-text-color: $gray15;
   --px-select-background-color: $gray3;
   --px-select-background-color--hover: $gray6;
   --px-select-background-color--active: $gray8;
   --px-select-border-color: transparent;
-  --px-select-text-color: $gray15;
-  --px-multiselect-background-color: $gray1;
+  --px-multiselect-background-color: $gray2;
   --px-validation-warning-text-color: $status-orange3;
   --px-validation-warning-background-color: $status-orange1;
   --px-validation-error-text-color: $status-red3;
   --px-validation-error-background-color: $status-red1;
   --px-validation-success-text-color: $status-green3;
   --px-validation-success-background-color: $status-green1;
+
 
   // Headings
   --px-headings-header-page-color: $gray5;
