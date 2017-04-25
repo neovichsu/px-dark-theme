@@ -95,7 +95,8 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // Forms
   --px-input-text-color: $gray5;
   --px-input-label-text-color: $gray10;
-  --px-input-text-color--placeholder: $gray15;
+  --px-input-text-color--placeholder: $gray14;
+  --px-input-text-color--placeholder--focused: $gray5;
   --px-input-text-color--help: $gray10;
   --px-input-background-color: transparent;
   --px-input-background-color--hover: $gray15;
