@@ -5,6 +5,7 @@
     "px-dark-theme.html"
   ],
   "ignore": [
+    "*.enc",
     "**/.*",
     "npm-debug.log",
     "Gruntfile.js",
