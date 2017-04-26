@@ -87,15 +87,16 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   //
   // Code
   //Double check
-  --px-code-text-color: $gray4;
-  --px-code-background-color: $gray15;
-  --px-code-border-color: $gray20;
+  --px-code-text-color: $gray5;
+  --px-code-background-color: $gray19;
+  --px-code-border-color: transparent;
 
   // Forms
   // Forms
   --px-input-text-color: $gray5;
   --px-input-label-text-color: $gray10;
-  --px-input-text-color--placeholder: $gray15;
+  --px-input-text-color--placeholder: $gray14;
+  --px-input-text-color--placeholder--focused: $gray5;
   --px-input-text-color--help: $gray10;
   --px-input-background-color: transparent;
   --px-input-background-color--hover: $gray15;
