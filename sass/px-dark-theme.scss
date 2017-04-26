@@ -340,27 +340,14 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   //
   // //Demo Snippet
   // --px-demo-snippet-background-color:
-  //
-  // // Dropdown
-  // --px-dropdown-bg-color:
-  // --px-dropdown-bg-color--hover:
-  // --px-dropdown-bg-color--disabled:
-  // --px-dropdown-bg-color--opened:
-  // --px-dropdown-border-color:
-  // --px-dropdown-border-color--hover:
-  // --px-dropdown-border-color--opened:
-  // --px-dropdown-border-color--disabled:
-  // --px-dropdown-text-color:
-  // --px-dropdown-text-color--hover:
-  // --px-dropdown-text-color--pressed:
-  // --px-dropdown-text-color--disabled:
-  // --px-dropdown-text-color--opened:
-  // --px-dropdown-list-item-background-color:
-  // --px-dropdown-list-item-text-color:
-  // --px-dropdown-content-background-color:
-  // --px-dropdown-content-border-color:
-  // --px-dropdown-content-text-color:
-  //
+
+  // Dropdown
+  --px-dropdown-bg-color: $gray14;
+  --px-dropdown-bg-color--hover: $gray15;
+  --px-dropdown-bg-color--selected: $gray15;
+  --px-dropdown-text-color--disabled: rgba($white,0.2);
+  --px-dropdown-border-color: $gray11;
+
   // // File Upload
   // --px-file-upload-validation-color:
   // --px-file-upload-dropzone-background-color:
@@ -387,12 +374,13 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-login-text-color--hover:
   // --px-login-background-color:
   // --px-login-background-color--hover:
-  //
-  // // Modal
-  // --px-modal-background-color:
-  // --px-modal-overlay-color:
-  // --px-modal-border-color:
-  //
+
+  // Modal
+  --px-modal-background-color: $white;
+  --px-modal-overlay-color: rgba($black, .7);
+  --px-modal-border-color: transparent;
+  --px-modal-text-color: $gray15;
+
   // // Overlay
   // --px-overlay-light-color:
   // --px-overlay-dark-color:
@@ -409,16 +397,20 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-progress-bar-background-color:
 
   // Slider
-  --px-slider-border-color: $gray6;
-  --px-slider-background-color: $gray1;
+  --px-slider-border-color: $gray14;
+  --px-slider-border-color--disabled: rgba($white,0.2);
   --px-slider-border-color--selected: $primary-default;
+  --px-slider-background-color: $gray14;
+  --px-slider-background-color--disabled: transparent;
   --px-slider-background-color--selected: $primary-default;
   --px-slider-background-color--hover: $primary-hover;
   --px-slider-background-color--pressed: $primary-pressed;
+  --px-slider-progress-border-color--disabled: rgba($white,0.2);
+  --px-slider-progress-background-color--disabled: rgba($white,0.2);
   --px-handle-stroke-color: $gray8;
-  --px-handle-color--disabled: $gray4;
-  --px-handle-background-color: $white;
-  --px-handle-background-color--active: $gray7;
+  --px-handle-color--disabled: rgba($white,0.2);
+  --px-handle-background-color: $gray3;
+  --px-handle-background-color--active: $gray8;
 
   // // Spinner
   // --px-spinner-fill-color:
