@@ -21,23 +21,23 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   @import "px-mixins-design/_tools.mixins.scss";
 
   // Actionable Text & Icons
-  --px-actionable-text-color: $d-primary-default;
-  --px-actionable-text-color--hover: $d-primary-hover;
-  --px-actionable-text-color--active: $d-primary-pressed;
-  --px-selectable-text-color: $d-select-default;
-  --px-selectable-text-color--hover: $d-select-hover;
-  --px-selectable-text-color--active: $d-select-pressed;
+  --px-actionable-text-color: $primary-default;
+  --px-actionable-text-color--hover: $primary-hover;
+  --px-actionable-text-color--active: $primary-pressed;
+  --px-selectable-text-color: $select-default;
+  --px-selectable-text-color--hover: $select-hover;
+  --px-selectable-text-color--active: $select-pressed;
   --px-actionable-alt-text-color: $gray5;
-  --px-actionable-alt-text-color--hover: $d-primary-default;
-  --px-actionable-alt-text-color--active: $d-primary-pressed;
+  --px-actionable-alt-text-color--hover: $primary-default;
+  --px-actionable-alt-text-color--active: $primary-pressed;
   --px-actionable-disabled-text-color: rgba($white, 0.2);
 
 
   // Button Group
   --px-btn-group-text-color: $white;
-  --px-btn-group-background-color: $d-select-default;
-  --px-btn-group-background-color--hover: $d-select-hover;
-  --px-btn-group-background-color--pressed: $d-select-pressed;
+  --px-btn-group-background-color: $select-default;
+  --px-btn-group-background-color--hover: $select-hover;
+  --px-btn-group-background-color--pressed: $select-pressed;
   --px-btn-group-border-color: transparent;
   --px-btn-group-border-color--hover: transparent;
   --px-btn-group-border-color--pressed: transparent;
@@ -67,9 +67,9 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-btn-disabled-border-color: rgba($white,0.2);
   --px-btn-call-to-action-color: $white;
   --px-btn-call-to-action-border-color: transparent;
-  --px-btn-call-to-action-background: $d-primary-default;
-  --px-btn-call-to-action-background--hover: $d-primary-hover;
-  --px-btn-call-to-action-background--pressed: $d-primary-pressed;
+  --px-btn-call-to-action-background: $primary-default;
+  --px-btn-call-to-action-background--hover: $primary-hover;
+  --px-btn-call-to-action-background--pressed: $primary-pressed;
   --px-btn-call-to-action-disabled-color: $white;
   --px-btn-call-to-action-disabled-background: $cyan10;
   // --px-btn-icon-border: 0px solid;
@@ -103,7 +103,7 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-input-background-color--focused: $primary-light;
   --px-input-background-color--disabled: transparent;
   --px-input-border-color--outer: $gray10;
-  --px-input-border-color--outer--focused: $d-primary-default;
+  --px-input-border-color--outer--focused: $primary-default;
   --px-input-text-color--focused: $gray15;
   --px-input-text-color--disabled: rgba($white, 0.2);
   --px-input-border-color--disabled: rgba($white, 0.2);
@@ -150,10 +150,10 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-toggle-switch-shadow-color: rgba($black, .15);
   --px-toggle-backgound-color-off: $gray17;
   --px-toggle-border-color-off: $gray8;
-  --px-toggle-background-color-on: $d-primary-default;
-  --px-toggle-border-color-on: $d-primary-default;
-  --px-toggle-background-color-on-hover: $d-primary-hover;
-  --px-toggle-background-color-on-pressed: $d-primary-pressed;
+  --px-toggle-background-color-on: $primary-default;
+  --px-toggle-border-color-on: $primary-default;
+  --px-toggle-background-color-on-hover: $primary-hover;
+  --px-toggle-background-color-on-pressed: $primary-pressed;
   --px-toggle-disabled-background: $gray17;
   --px-toggle-checked-disabled-background: rgba($white,0.2);
   --px-toggle-disabled-border-color: rgba($white,0.2);
@@ -345,8 +345,9 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // Dropdown
   --px-dropdown-bg-color: $gray14;
   --px-dropdown-bg-color--hover: $gray15;
-  --px-dropdown-bg-color--selected: $gray15;
+  --px-dropdown-bg-color--selected: $select-default;
   --px-dropdown-text-color--disabled: rgba($white,0.2);
+  --px-dropdown-text-color--selected: $gray5;
   --px-dropdown-border-color: $gray11;
 
   // // File Upload
@@ -381,6 +382,7 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-modal-overlay-color: rgba($black, .7);
   --px-modal-border-color: transparent;
   --px-modal-text-color: $gray15;
+  --px-modal-btn--disabled: $gray4;
 
   // // Overlay
   // --px-overlay-light-color:
@@ -406,11 +408,14 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-slider-background-color--selected: $primary-default;
   --px-slider-background-color--hover: $primary-hover;
   --px-slider-background-color--pressed: $primary-pressed;
-  --px-slider-progress-border-color--disabled: rgba($white,0.2);
+  --px-slider-progress-border-color--disabled: transparent;
   --px-slider-progress-background-color--disabled: rgba($white,0.2);
   --px-handle-stroke-color: $gray8;
+  --px-handle-stroke-color--hover: $gray10;
+  --px-handle-stroke-color--active: $gray12;
   --px-handle-color--disabled: rgba($white,0.2);
   --px-handle-background-color: $gray3;
+  --px-handle-background-color--hover: $gray6;
   --px-handle-background-color--active: $gray8;
 
   // // Spinner
@@ -419,7 +424,7 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
 
   // Tabs
   --px-tab-text-color: $gray5;
-  --px-tab-text-color--selected: $d-select-default;
+  --px-tab-text-color--selected: $select-default;
   --px-tab-border-color: $gray15;
   --px-tab-outline-style: none;
 
@@ -429,16 +434,16 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-tooltip-border-color: $gray19;
   --px-tooltip-shadow-color: rgba($black,0.15);
 
-  // // Typeahead
-  // --px-typeahead-background-color:
-  // --px-typeahead-background-color--selected:
-  // --px-typeahead-border-color:
-  // --px-typeahead-border-color--focus:
-  // --px-typeahead-box-shadow-color:
-  // --px-typeahead-box-shadow-color--focus:
-  // --px-typeahead-text-color:
-  // --px-typeahead-text-color--selected:
-  //
+  // Typeahead
+  --px-typeahead-background-color: $gray14;
+  --px-typeahead-background-color--hover: $gray15;
+  --px-typeahead-background-color--selected: $select-default;
+  --px-typeahead-border-color: $gray11;
+  --px-typeahead-box-shadow-color: rgba($black,0.15);
+  --px-typeahead-text-color: $gray5;
+  --px-typeahead-text-color--hover: $gray5;
+  --px-typeahead-text-color--selected: $gray5;
+
   // // View Header
   // --px-view-header-background-color:
   //
