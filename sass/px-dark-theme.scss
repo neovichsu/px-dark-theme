@@ -378,7 +378,7 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-login-background-color--hover:
 
   // Modal
-  --px-modal-background-color: $white;
+  --px-modal-background-color: $gray2;
   --px-modal-overlay-color: rgba($black, .7);
   --px-modal-border-color: transparent;
   --px-modal-text-color: $gray15;
@@ -423,8 +423,12 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-spinner-background-color:
 
   // Tabs
-  --px-tab-text-color: $gray5;
-  --px-tab-text-color--selected: $select-default;
+  --px-tab-color: $gray5;
+  --px-tab-color--hover: $select-default;
+  --px-tab-color--active: $select-pressed;
+  --px-tab-color--selected: $select-default;
+  --px-tab-color--selected--hover: $select-hover;
+  --px-tab-color--selected--active: $select-pressed;
   --px-tab-border-color: $gray15;
   --px-tab-outline-style: none;
 
