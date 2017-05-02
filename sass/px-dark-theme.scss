@@ -143,12 +143,31 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-table-separator-color: $gray15;
 
   // Toggle
+
+  --px-toggle__background-color--checked: $primary-default;
+  --px-toggle__background-color--checked--hover: $primary-hover;
+  --px-toggle__background-color--checked--pressed: $primary-pressed;
+  --px-toggle__background-color--checked--disabled: rgba($white,0.2);
+
+  --px-toggle__background-border-color--unchecked: $gray8;
+  --px-toggle__background-border-color--unchecked--disabled: rgba($white,0.2);
+
+  --px-toggle__switch-color: $gray3;
+  --px-toggle__switch-color--hover: $gray6;
+  --px-toggle__switch-color--pressed: $gray8;
+  --px-toggle__switch-color--disabled: transparent;
+
+  --px-toggle__switch-border-color: $gray8;
+  --px-toggle__switch-border-color--hover: $gray10;
+  --px-toggle__switch-border-color--pressed: $gray12;
+  --px-toggle__switch-border-color--disabled: rgba($white,0.2);
+
   --px-toggle-switch-color: $gray3;
   --px-toggle-switch-color-hover: $gray6;
   --px-toggle-switch-color-pressed: $gray8;
   --px-toggle-switch-border-color: $gray8;
   --px-toggle-switch-shadow-color: rgba($black, .15);
-  --px-toggle-backgound-color-off: $gray17;
+  --px-toggle-background-color-off: $gray17;
   --px-toggle-border-color-off: $gray8;
   --px-toggle-background-color-on: $primary-default;
   --px-toggle-border-color-on: $primary-default;
