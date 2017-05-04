@@ -144,23 +144,28 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
 
   // Toggle
 
-  --px-toggle__background-color--checked: $primary-default;
-  --px-toggle__background-color--checked--hover: $primary-hover;
-  --px-toggle__background-color--checked--pressed: $primary-pressed;
-  --px-toggle__background-color--checked--disabled: rgba($white,0.2);
+  --px-toggle__background--checked: $primary-default;
+  --px-toggle__background--checked--hover: $primary-hover;
+  --px-toggle__background--checked--pressed: $primary-pressed;
+  --px-toggle__background--checked--disabled: rgba($white,0.2);
 
-  --px-toggle__background-border-color--unchecked: $gray8;
-  --px-toggle__background-border-color--unchecked--disabled: rgba($white,0.2);
+  --px-toggle__background--unchecked: $gray17;
+  --px-toggle__background--unchecked--disabled: $gray17;
 
-  --px-toggle__switch-color: $gray3;
-  --px-toggle__switch-color--hover: $gray6;
-  --px-toggle__switch-color--pressed: $gray8;
-  --px-toggle__switch-color--disabled: transparent;
+  --px-toggle__background-border--unchecked: $gray8;
+  --px-toggle__background-border--unchecked--disabled: rgba($white,0.2);
 
-  --px-toggle__switch-border-color: $gray8;
-  --px-toggle__switch-border-color--hover: $gray10;
-  --px-toggle__switch-border-color--pressed: $gray12;
-  --px-toggle__switch-border-color--disabled: rgba($white,0.2);
+  --px-toggle__switch: $gray3;
+  --px-toggle__switch--hover: $gray6;
+  --px-toggle__switch--pressed: $gray8;
+  --px-toggle__switch--disabled: $gray17;
+
+  --px-toggle__switch-border: $gray8;
+  --px-toggle__switch-border--hover: $gray10;
+  --px-toggle__switch-border--pressed: $gray12;
+  --px-toggle__switch-border--disabled: rgba($white,0.2);
+
+
 
   --px-toggle-switch-color: $gray3;
   --px-toggle-switch-color-hover: $gray6;
