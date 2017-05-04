@@ -21,9 +21,9 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   @import "px-mixins-design/_tools.mixins.scss";
 
   // Actionable Text & Icons
-  --px-actionable-text-color: $primary-default;
-  --px-actionable-text-color--hover: $primary-hover;
-  --px-actionable-text-color--active: $primary-pressed;
+  --px-actionable-text-color: $d-actionable-default;
+  --px-actionable-text-color--hover: $d-actionable-hover;
+  --px-actionable-text-color--active: $d-actionable-pressed;
   --px-selectable-text-color: $select-default;
   --px-selectable-text-color--hover: $select-hover;
   --px-selectable-text-color--active: $select-pressed;
@@ -87,7 +87,7 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   //
   // Code
   //Double check
-  --px-code-text-color: $gray5;
+  --px-code-text-color: $blue5;
   --px-code-background-color: $gray19;
   --px-code-border-color: transparent;
 
