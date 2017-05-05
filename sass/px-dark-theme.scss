@@ -149,10 +149,14 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-toggle__background--checked--pressed: $primary-pressed;
   --px-toggle__background--checked--disabled: rgba($white,0.2);
 
-  --px-toggle__background--unchecked: $gray17;
+  --px-toggle__background--unchecked: $gray15;
+  --px-toggle__background--unchecked--hover: $gray16;
+  --px-toggle__background--unchecked--pressed: $gray17;
   --px-toggle__background--unchecked--disabled: $gray17;
 
   --px-toggle__background-border--unchecked: $gray8;
+  --px-toggle__background-border--unchecked--hover: $gray10;
+  --px-toggle__background-border--unchecked--pressed: $gray12;
   --px-toggle__background-border--unchecked--disabled: rgba($white,0.2);
 
   --px-toggle__switch: $gray3;
@@ -165,22 +169,6 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-toggle__switch-border--pressed: $gray12;
   --px-toggle__switch-border--disabled: rgba($white,0.2);
 
-
-
-  --px-toggle-switch-color: $gray3;
-  --px-toggle-switch-color-hover: $gray6;
-  --px-toggle-switch-color-pressed: $gray8;
-  --px-toggle-switch-border-color: $gray8;
-  --px-toggle-switch-shadow-color: rgba($black, .15);
-  --px-toggle-background-color-off: $gray17;
-  --px-toggle-border-color-off: $gray8;
-  --px-toggle-background-color-on: $primary-default;
-  --px-toggle-border-color-on: $primary-default;
-  --px-toggle-background-color-on-hover: $primary-hover;
-  --px-toggle-background-color-on-pressed: $primary-pressed;
-  --px-toggle-disabled-background: $gray17;
-  --px-toggle-checked-disabled-background: rgba($white,0.2);
-  --px-toggle-disabled-border-color: rgba($white,0.2);
   //
   // /********************************/
   // /* Dark Theme for Px Components */
