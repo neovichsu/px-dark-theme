@@ -84,14 +84,12 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-btn-primary-bare-color--hover: $primary-hover;
   --px-btn-primary-bare-color--pressed: $primary-pressed;
 
-  //
   // Code
   //Double check
   --px-code-text-color: $blue5;
   --px-code-background-color: $gray19;
   --px-code-border-color: transparent;
 
-  // Forms
   // Forms
   --px-input-text-color: $gray5;
   --px-input-label-text-color: $gray10;
@@ -424,11 +422,11 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
 
   // Tabs
   --px-tab-color: $gray5;
-  --px-tab-color--hover: $select-default;
-  --px-tab-color--active: $select-pressed;
-  --px-tab-color--selected: $select-default;
-  --px-tab-color--selected--hover: $select-hover;
-  --px-tab-color--selected--active: $select-pressed;
+  --px-tab-color--hover: $primary-default;
+  --px-tab-color--active: $primary-pressed;
+  --px-tab-color--selected: $primary-default;
+  --px-tab-color--selected--hover: $primary-hover;
+  --px-tab-color--selected--active: $primary-pressed;
   --px-tab-border-color: $gray15;
   --px-tab-outline-style: none;
 
