@@ -111,12 +111,13 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-select-background-color--hover: $gray6;
   --px-select-background-color--active: $gray8;
   --px-select-border-color: transparent;
+  --px-select-text-color: $gray5;
   --px-multiselect-background-color: $gray2;
   --px-validation-warning-text-color: $status-orange3;
   --px-validation-warning-background-color: $status-orange1;
   --px-validation-error-text-color: $status-red3;
   --px-validation-error-background-color: $status-red1;
-  --px-validation-success-text-color: $status-green3;
+  --px-validation-success-text-color: $status-green2;
   --px-validation-success-background-color: $status-green1;
 
 
@@ -416,9 +417,9 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-handle-background-color--hover: $gray6;
   --px-handle-background-color--active: $gray8;
 
-  // // Spinner
-  // --px-spinner-fill-color:
-  // --px-spinner-background-color:
+  // Spinner
+  --px-spinner-fill-color: $primary-default;
+  --px-spinner-background-color: $cyan1;
 
   // Tabs
   --px-tab-color: $gray5;
