@@ -431,9 +431,9 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-tab-color: $gray5;
   --px-tab-color--hover: $primary-default;
   --px-tab-color--active: $primary-pressed;
-  --px-tab-color--selected: $primary-default;
-  --px-tab-color--selected--hover: $primary-hover;
-  --px-tab-color--selected--active: $primary-pressed;
+  --px-tab-color--selected: $select-default;
+  --px-tab-color--selected--hover: $select-hover;
+  --px-tab-color--selected--active: $select-pressed;
   --px-tab-border-color: $gray15;
   --px-tab-outline-style: none;
 
