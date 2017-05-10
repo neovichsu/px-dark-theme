@@ -1,3 +1,8 @@
+v2.0.0
+==================
+* update px-toggle-design classes
+* update px-code-text-color
+
 v1.0.10
 =================
 * added px-vis-dynamic-menu colors
