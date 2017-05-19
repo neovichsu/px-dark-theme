@@ -207,22 +207,27 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // --px-app-nav-link-hover-color:
   // --px-app-nav-link-selected-active-color:
   // --px-app-nav-hamburger-button-color:
-  //
-  // // Card
-  // --px-card-border-color:
-  // --px-card-background-color:
-  //
-  // // Deck Selector
-  // --px-deck-selector-border-color:
-  // --px-deck-selector-background-color:
-  // --px-deck-selector-text-color:
-  // --px-deck-selector-hover-background-color:
-  // --px-deck-selector-hover-text-color:
-  // --px-deck-selector-li-border:
-  //
-  // // Widget Cards
-  // --px-widget-border-color:
-  //
+
+  // Card
+  --px-card-background-color: $gray18;
+  --px-card-border-color: $gray14;
+  --px-card-header-color: $gray10;
+  --px-card-icon-color: $gray10;
+  --px-card-action-icon-color: $gray10;
+  --px-card-action-icon-color--hover: $primary-hover;
+  --px-card-action-icon-color--pressed: $primary-pressed;
+
+  // Deck Selector
+  --px-deck-selector-border-color: $gray19;
+  --px-deck-selector-shadow-color: rgba($black, 0.2);
+  --px-deck-selector-background-color: $gray16;
+  --px-deck-selector-text-color: $gray5;
+  --px-deck-selector-background-color--hover: $gray17;
+  --px-deck-selector-text-color--hover: $gray5;
+  --px-deck-selector-background-color--selected: $select-default;
+  --px-deck-selector-text-color--selected: $white;
+  --px-deck-selector-li-border: $gray15;
+
   // //// Charts
   //
   // // Percent Circle
