@@ -1,5 +1,6 @@
 v2.0.0
 ==================
+* update px-headings-design class names
 * add styles for px-clipboard and px-demo-snippet
 * update px-toggle-design classes
 * update px-code-text-color
