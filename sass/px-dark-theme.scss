@@ -384,9 +384,12 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-inbox-list-width: 320px;
 
 
-  // // KPI
-  // --px-kpi-text-color:
-  //
+  // KPI
+  --px-kpi-text-color: $gray5;
+  --px-kpi-secondary-text-color: $gray10;
+  --px-kpi-border-color: $gray10;
+  --px-kpi-separator-color: $gray15;
+
   // // Login
   // --px-login-border-color:
   // --px-login-text-color:
