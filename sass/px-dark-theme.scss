@@ -87,7 +87,6 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-btn-primary-bare-color--pressed: $primary-pressed;
 
   // Code
-  //Double check
   --px-code-text-color: $blue5;
   --px-code-background-color: $gray19;
   --px-code-border-color: transparent;
@@ -95,8 +94,8 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   // Forms
   --px-input-text-color: $gray5;
   --px-input-label-text-color: $gray10;
-  --px-input-text-color--placeholder: $gray14;
-  --px-input-text-color--placeholder--focused: $gray5;
+  --px-input-text-color--placeholder: rgba($white,0.3);
+  --px-input-text-color--placeholder--focused: rgba($black,0.3);
   --px-input-text-color--help: $gray10;
   --px-input-background-color: transparent;
   --px-input-background-color--hover: $gray15;
@@ -130,10 +129,6 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-headings-heading-subsection-background: $gray19;
   --px-headings-label-color: $gray10;
   --px-headings-value-color: $gray5;
-  //
-  // // Input Group
-  // --px-input-group-text-color:
-  // --px-input-group-icon-color:
 
   // List UI
   --px-list-ui-border-color: $gray10;
@@ -170,37 +165,33 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   --px-toggle__switch-border--pressed: $gray12;
   --px-toggle__switch-border--disabled: rgba($white,0.2);
 
-  //
+
   // /********************************/
   // /* Dark Theme for Px Components */
   // /********************************/
-  //
-  // // Alert Label
-  // --px-alert-label-text-color--alert:
-  // --px-alert-label-background-color--alert:
-  // --px-alert-label-text-color--warning:
-  // --px-alert-label-background-color--warning:
-  // --px-alert-label-text-color--error:
-  // --px-alert-label-background-color--error:
-  // --px-alert-label-text-color--info:
-  // --px-alert-label-background-color--info:
-  // --px-alert-label-text-color--healthy:
-  // --px-alert-label-background-color--healthy:
-  // --px-alert-label-border-color--healthy:
-  // --px-alert-label-text-color--inverted:
-  // --px-alert-label-background-color--inverted:
-  // --px-alert-label-text-color--unknown:
-  // --px-alert-label-background-color--unknown:
-  //
-  // // Alert Message
-  // --px-alert-message-background-color:
-  // --px-alert-message-icon-outline-color:
-  // --px-alert-message-icon-text-color:
-  // --px-alert-message-alert-color:
-  // --px-alert-message-warning-color:
-  // --px-alert-message-error-color:
-  // --px-alert-message-info-color:
-  // --px-alert-message-dismiss-icon-color:
+
+  // Alert Label
+  --px-alert-label-text-color--important: $white;
+  --px-alert-label-background-color--important: $status-red3;
+  --px-alert-label-text-color--warning: $white;
+  --px-alert-label-background-color--warning: $status-orange3;
+  --px-alert-label-text-color--error: $yellow10;
+  --px-alert-label-background-color--error: $status-yellow3;
+  --px-alert-label-text-color--info: $white;
+  --px-alert-label-background-color--info: $status-blue3;
+  --px-alert-label-text-color--healthy: $white;
+  --px-alert-label-background-color--healthy: $status-green3;
+  --px-alert-label-text-color--unknown: $white;
+  --px-alert-label-background-color--unknown: $neutral-gray3;
+
+  // Alert Message
+  --px-alert-message-background-color: $white;
+  --px-alert-message-background-color: $gray15;
+  --px-alert-message-color--important: $status-red3;
+  --px-alert-message-color--warning: $status-orange3;
+  --px-alert-message-color--error: $status-yellow3;
+  --px-alert-message-color--information: $status-blue3;
+  --px-alert-message-dismiss-icon-color: $gray8;
   //
   // // App Nav
   // --px-app-nav-background-color:
@@ -457,13 +448,10 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
 
   // Tabs
   --px-tab-color: $gray5;
-  --px-tab-color--hover: $primary-default;
-  --px-tab-color--active: $primary-pressed;
+  --px-tab-color--hover: $select-default;
+  --px-tab-color--active: $select-pressed;
   --px-tab-color--selected: $select-default;
-  --px-tab-color--selected--hover: $select-hover;
-  --px-tab-color--selected--active: $select-pressed;
   --px-tab-border-color: $gray15;
-  --px-tab-outline-style: none;
 
   // Tooltip
   --px-tooltip-background-color: $gray16;
