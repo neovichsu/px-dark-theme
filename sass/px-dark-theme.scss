@@ -318,7 +318,7 @@ html{
   --px-datetime-entry-selected: $cyan2;
 
   // Datetime Field
-  --dt-field-background-color-fix: $gray16;
+  --dt-field-background-color-fix: $gray17;
 
   // // Datetime Picker
   // --px-datetime-picker-background-color:
@@ -348,6 +348,7 @@ html{
   --px-dropdown-text-color--disabled  :  rgba($white,0.2);
   --px-dropdown-text-color--selected  :  $gray5;
   --px-dropdown-border-color          :  $gray11;
+  --px-dropdown-text-color            :  $gray5;
 
   // File Upload
   --px-file-upload-file-list-color            :  $gray10;
