@@ -443,17 +443,23 @@ html{
   --px-table-row-separator-color             :  $gray15;
 
   // Tabs
-  --px-tab-color                 :  $gray5;
-  --px-tab-color--hover          :  $select-default;
-  --px-tab-color--active         :  $select-pressed;
-  --px-tab-color--selected       :  $select-default;
-  --px-tab-border-color          :  $gray15;
+  --px-tab-color                             :  $gray5;
+  --px-tab-color--hover                      :  $select-default;
+  --px-tab-color--active                     :  $select-pressed;
+  --px-tab-color--selected                   :  $select-default;
+  --px-tab-border-color                      :  $gray15;
+
+  // Tree
+  --px-tree-text-color--hover                :  $gray5;
+  --px-tree-background-color--hover          :  $gray15;
+  --px-tree-text-color--selected             :  $gray5;
+  --px-tree-background-color--selected       :  $select-default;
 
   // Tooltip
-  --px-tooltip-background-color  :  $gray16;
-  --px-tooltip-text-color        :  $gray5;
-  --px-tooltip-border-color      :  $gray19;
-  --px-tooltip-shadow-color      :  rgba($black,0.15);
+  --px-tooltip-background-color              :  $gray16;
+  --px-tooltip-text-color                    :  $gray5;
+  --px-tooltip-border-color                  :  $gray19;
+  --px-tooltip-shadow-color                  :  rgba($black,0.15);
 
   // Typeahead
   --px-typeahead-background-color            :  $gray14;
