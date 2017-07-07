@@ -1,5 +1,4 @@
 # px-dark-theme
--------------
 
 ## Overview
 
