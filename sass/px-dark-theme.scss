@@ -299,21 +299,24 @@ html {
   //// Datetime Components
 
   // Calendar Picker
-  --px-calendar-background-color--hover              : $gray15;
+  --px-calendar-background-color--hover              : rgba($black,0.25);
   --px-calendar-background-color--pressed            : $select-pressed;
   --px-calendar-background-color--selected           : $select-default;
   --px-calendar-background-color--selected--hover    : $select-hover;
   --px-calendar-background-color--selected--pressed  : $select-pressed;
+  --px-calendar-title-color                          : $gray8;
   --px-calendar-text-color                           : $gray5;
   --px-calendar-text-color--hover                    : $gray5;
   --px-calendar-text-color--selected                 : $white;
-  --px-calendar-alt-background-color                 : $select-light;
+  --px-calendar-alt-background-color                 : $select-hover;
   --px-calendar-sub-labels--text-color               : $gray10;
+  --px-calendar-today-border                         : $select-default;
 
   //Common
   --px-datetime-icon-color: $gray8;
   --px-datetime-read-only-text-color: $gray12;
   --px-datetime-entry-selected: $cyan2;
+  --px-datetime-preset-title-color: $gray10;
 
   // Datetime Field
   --dt-field-background-color-fix: $gray17;
@@ -441,6 +444,12 @@ html {
   --px-tab-color--active                     :  $select-pressed;
   --px-tab-color--selected                   :  $select-default;
   --px-tab-border-color                      :  $gray15;
+
+  // Timeline
+  --px-timeline-border-color                 :  $gray10;
+  --px-timeline-text-color                   :  $gray5;
+  --px-timeline-alt-text-color               :  $gray10;
+  --px-timeline-quote-mark-color             :  $gray14;
 
   // Tree
   --px-tree-text-color--hover                :  $gray5;
