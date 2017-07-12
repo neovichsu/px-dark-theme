@@ -463,6 +463,8 @@ html {
   --px-typeahead-text-color                  :  $gray5;
   --px-typeahead-text-color--hover           :  $gray5;
   --px-typeahead-text-color--selected        :  $gray5;
+  --px-typeahead-icon-color                  :  $gray5;
+  --px-typeahead-icon-color--disabled        :  rgba($gray10, 0.5);
 
   // View Header
   --px-view-header-background-color          :  $gray19;
