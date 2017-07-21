@@ -3,26 +3,23 @@
 //
 
 @import "px-colors-design/_settings.colors.scss";
+@import "px-defaults-design/_settings.defaults.scss";
+@import "px-mixins-design/_tools.mixins.scss";
 
-$fa-font-path       : "../font-awesome/fonts";
-$fa-version         : "4.4.0" !default;
 $predix-font-family : "GE Inspira Sans", sans-serif !default;
-
 @import "px-typography-design/_base.typography.scss";
 
-html{
+
+html {
   background-color: $gray16;
 }
 
 :root{
-  @import "px-iconography-design/_base.iconography.scss";
 
   // Defaults
   --px-base-text-color        :  $gray5;
   --px-base-background-color  :  $gray16;
 
-  @import "px-defaults-design/_settings.defaults.scss";
-  @import "px-mixins-design/_tools.mixins.scss";
 
   // Actionable Text & Icons
   --px-actionable-text-color                :  $d-actionable-default;
@@ -107,7 +104,7 @@ html{
   --px-input-text-color--focused               :  $gray15;
   --px-input-text-color--disabled              :  rgba($gray10, 0.5);
   --px-input-border-color--disabled            :  rgba($gray10, 0.25);
-  --px-input-textarea-background--focused      :  $gray3;
+  --px-input-textarea-background--focused      :  $primary-light;
   --px-select-text-color                       :  $gray15;
   --px-select-background-color                 :  $gray3;
   --px-select-background-color--hover          :  $gray6;
@@ -172,19 +169,19 @@ html{
   // /********************************/
 
   // Alert Label
-  --px-alert-label-border-color                 :  transparent;
-  --px-alert-label-text-color--important        :  $white;
-  --px-alert-label-background-color--important  :  $status-red3;
-  --px-alert-label-text-color--warning          :  $white;
-  --px-alert-label-background-color--warning    :  $status-orange3;
-  --px-alert-label-text-color--error            :  $yellow10;
-  --px-alert-label-background-color--error      :  $status-yellow3;
-  --px-alert-label-text-color--info             :  $white;
-  --px-alert-label-background-color--info       :  $status-blue3;
-  --px-alert-label-text-color--healthy          :  $white;
-  --px-alert-label-background-color--healthy    :  $status-green3;
-  --px-alert-label-text-color--unknown          :  $white;
-  --px-alert-label-background-color--unknown    :  $neutral-gray3;
+  --px-alert-label-border-color                   :  transparent;
+  --px-alert-label-text-color--important          :  $white;
+  --px-alert-label-background-color--important    :  $status-red3;
+  --px-alert-label-text-color--warning            :  $white;
+  --px-alert-label-background-color--warning      :  $status-orange3;
+  --px-alert-label-text-color--error              :  $yellow10;
+  --px-alert-label-background-color--error        :  $status-yellow3;
+  --px-alert-label-background-color--information  :  $white;
+  --px-alert-label-background-color--information  :  $status-blue3;
+  --px-alert-label-text-color--healthy            :  $white;
+  --px-alert-label-background-color--healthy      :  $status-green3;
+  --px-alert-label-text-color--unknown            :  $white;
+  --px-alert-label-background-color--unknown      :  $neutral-gray3;
 
   // Alert Message
   --px-alert-message-background-color    :  $white;
@@ -195,14 +192,41 @@ html{
   --px-alert-message-color--information  :  $status-blue3;
   --px-alert-message-color--unknown      :  $neutral-gray3;
   --px-alert-message-dismiss-icon-color  :  $gray8;
-  //
-  // // App Nav
-  // --px-app-nav-background-color:
-  // --px-app-nav-link-text-color:
-  // --px-app-nav-link-selected-color:
-  // --px-app-nav-link-hover-color:
-  // --px-app-nav-link-selected-active-color:
-  // --px-app-nav-hamburger-button-color:
+
+  // App Nav
+  --px-app-nav-background-color                                         : $gray19;
+  --px-app-nav-item-background-color--collapsed                         : $gray17;
+  --px-app-nav-item-background-color--empty                             : $gray17;
+  --px-app-nav-item-background-color--hover                             : $gray16;
+  --px-app-nav-item-background-color--pressed                           : $gray15;
+  --px-app-nav-item-background-color--selected                          : $gray17;
+  --px-app-nav-item-background-color                                    : $gray19;
+  --px-app-nav-item-icon-color--collapsed                               : $gray5;
+  --px-app-nav-item-icon-color--hover                                   : $gray5;
+  --px-app-nav-item-icon-color--pressed                                 : $gray5;
+  --px-app-nav-item-icon-color--selected                                : $gray5;
+  --px-app-nav-item-icon-color                                          : $gray5;
+  --px-app-nav-item-stripe-color--selected                              : $select-default;
+  --px-app-nav-item-text-color--collapsed                               : $gray5;
+  --px-app-nav-item-text-color--hover                                   : $gray5;
+  --px-app-nav-item-text-color--pressed                                 : $gray5;
+  --px-app-nav-item-text-color--selected                                : $gray5;
+  --px-app-nav-item-text-color                                          : $gray5;
+  --px-app-nav-subitem-background-color--hover                          : $gray17;
+  --px-app-nav-subitem-background-color--selected                       : $select-default;
+  --px-app-nav-subitem-background-color                                 : $gray16;
+  --px-app-nav-subitem-text-color--collapsed                            : $gray5;
+  --px-app-nav-subitem-text-color--hover                                : $gray5;
+  --px-app-nav-subitem-text-color--selected                             : $white;
+  --px-app-nav-subitem-text-color                                       : $gray5;
+  --px-app-nav-subitem-background-color--collapsed                      : $gray19;
+  --px-app-nav-subitem-background-color--collapsed-hover                : $gray16;
+  --px-app-nav-subitem-accent-color--parent-collapsed-selected          : $select-default;
+  --px-app-nav-subitem-background-color--parent-collapsed-hover         : $gray17;
+  --px-app-nav-subitem-background-color--parent-collapsed-selected      : $select-default;
+  --px-app-nav-subitem-text-color--parent-collapsed-selected            : $white;
+  --px-app-nav-subitem-text-color--parent-collapsed-not-selected        : $gray5;
+  --px-app-nav-subitem-background-color--parent-collapsed-not-selected  : $gray16;
 
   // Card
   --px-card-background-color            :  $gray18;
@@ -302,32 +326,33 @@ html{
   //// Datetime Components
 
   // Calendar Picker
-  --px-calendar-background-color--hover              : $gray15;
+  --px-calendar-background-color--hover              : rgba($black,0.25);
   --px-calendar-background-color--pressed            : $select-pressed;
   --px-calendar-background-color--selected           : $select-default;
   --px-calendar-background-color--selected--hover    : $select-hover;
   --px-calendar-background-color--selected--pressed  : $select-pressed;
+  --px-calendar-title-color                          : $gray8;
   --px-calendar-text-color                           : $gray5;
   --px-calendar-text-color--hover                    : $gray5;
   --px-calendar-text-color--selected                 : $white;
-  --px-calendar-alt-background-color                 : $select-light;
+  --px-calendar-alt-background-color                 : $select-hover;
   --px-calendar-sub-labels--text-color               : $gray10;
+  --px-calendar-today-border                         : $select-default;
 
   //Common
   --px-datetime-icon-color: $gray8;
   --px-datetime-read-only-text-color: $gray12;
   --px-datetime-entry-selected: $cyan2;
+  --px-datetime-preset-title-color: $gray10;
+  --px-datetime-dropdown-content-color: --px-base-text-color;
 
   // Datetime Field
   --dt-field-background-color-fix: $gray17;
 
-  // // Datetime Picker
-  // --px-datetime-picker-background-color:
-  // --px-datetime-picker-background-color--hover:
-  // --px-datetime-picker-background-color--pressed:
-  // --px-datetime-picker-border-color:
-  // --px-datetime-picker-overlay-color:
-  //
+  // Datetime Picker
+  --px-datetime-picker-border-color: $gray19;
+  --px-datetime-picker-background-color: $gray16;
+
   // // Datetime Range Field
   // --px-datetime-range-field-text-color-validation--failed:
   // --px-datetime-range-field-to-color:
@@ -370,19 +395,14 @@ html{
   --px-inbox-height                         : 100vh;
   --px-inbox-list-width                     : 320px;
 
-
   // KPI
   --px-kpi-text-color            :  $gray5;
   --px-kpi-secondary-text-color  :  $gray10;
   --px-kpi-border-color          :  $gray10;
   --px-kpi-separator-color       :  $gray15;
 
-  // // Login
-  // --px-login-border-color:
-  // --px-login-text-color:
-  // --px-login-text-color--hover:
-  // --px-login-background-color:
-  // --px-login-background-color--hover:
+  // Login
+  --px-login-text-color        :  $gray5;
 
   // Modal
   --px-modal-background-color  :  $gray2;
@@ -429,18 +449,31 @@ html{
   --px-spinner-background-color  :  $cyan1;
 
   // Table View
-  --px-table-row-color                       : inherit;
+  --px-table-row-color                       :  inherit;
   --px-table-row-background-color            :  $gray17;
   --px-table-row-selected-background-color   :  $select-default;
   --px-table-row-selected-color              :  $white;
-  --px-table-row-title-color                 : inherit;
+  --px-table-row-title-color                 :  inherit;
   --px-table-row-subtitle-color              :  $gray8;
   --px-table-row-body-color                  :  $gray10;
   --px-table-row-label-color                 :  $gray10;
-  --px-table-row-header-color                : inherit;
+  --px-table-row-header-color                :  inherit;
   --px-table-row-header-background-color     :  $gray2;
   --px-table-row-border-color                :  $gray10;
   --px-table-row-separator-color             :  $gray15;
+  --px-table-row-button-color-alert          :  $status-red3;
+  --px-table-row-button-color-alert-hover    :  $status-red2;
+  --px-table-row-button-color-alert-pressed  :  $status-red4;
+  --px-table-row-button-color-warn           :  $status-orange3;
+  --px-table-row-button-color-warn-hover     :  $status-orange2;
+  --px-table-row-button-color-warn-pressed   :  $status-orange4;
+  --px-table-row-button-color-primary        :  $primary-default;
+  --px-table-row-button-color-primary-hover  :  $primary-hover;
+  --px-table-row-button-color-primary-pressed:  $primary-pressed;
+  --px-table-row-button-color-info           :  $gray15;
+  --px-table-row-button-color-info-hover     :  $gray13;
+  --px-table-row-button-color-info-pressed   :  $gray17;
+  --px-table-row-button-font-color           :  $gray5;
 
   // Tabs
   --px-tab-color                             :  $gray5;
@@ -448,6 +481,12 @@ html{
   --px-tab-color--active                     :  $select-pressed;
   --px-tab-color--selected                   :  $select-default;
   --px-tab-border-color                      :  $gray15;
+
+  // Timeline
+  --px-timeline-border-color                 :  $gray10;
+  --px-timeline-text-color                   :  $gray5;
+  --px-timeline-alt-text-color               :  $gray10;
+  --px-timeline-quote-mark-color             :  $gray14;
 
   // Tree
   --px-tree-text-color--hover                :  $gray5;
@@ -470,6 +509,8 @@ html{
   --px-typeahead-text-color                  :  $gray5;
   --px-typeahead-text-color--hover           :  $gray5;
   --px-typeahead-text-color--selected        :  $gray5;
+  --px-typeahead-icon-color                  :  $gray5;
+  --px-typeahead-icon-color--disabled        :  rgba($gray10, 0.5);
 
   // View Header
   --px-view-header-background-color          :  $gray19;
@@ -477,103 +518,232 @@ html{
   --px-view-header-subtitle-color            :  $gray10;
 
   // // Vis
-  // --px-vis-axis-brush-outline-color:
-  // --px-vis-axis-brush-fill-color:
-  // --px-vis-axis-brush-fill-opacity:
-  //
-  // --px-vis-axis-color:
-  // --px-vis-axis-title-color:
-  //
-  // --px-vis-axis-inline-title-color:
-  // --px-vis-axis-inline-type-color:
-  // --px-vis-axis-inline-box-color:
-  //
-  // --px-dynamic-menu-icon-color:
-  // --px-dynamic-menu-background-color:
-  // --px-dynamic-menu-border-color:
-  // --px-dynamic-menu-text-color:
-  // --px-dynamic-menu-item-background-color:
-  // --px-dynamic-menu-item-text-color:
-  //
-  // --px-vis-nav-brush-outline-color:
-  // --px-vis-nav-brush-fill-color:
-  // --px-vis-nav-brush-opacity:
-  // --px-vis-nav-brush-gradient-fill-color:
-  // --px-vis-nav-brush-gradient-opacity-1:
-  // --px-vis-nav-brush-gradient-opacity-2:
-  // --px-vis-nav-brush-handle-fill-color:
-  // --px-vis-nav-brush-handle-lines-color:
-  // --px-vis-nav-brush-handle-fill-color-hover:
-  // --px-vis-nav-brush-handle-lines-color-hover:
-  // --px-vis-nav-brush-handle-fill-color-press:
-  // --px-vis-nav-brush-handle-lines-color-press:
-  //
-  // --px-vis-cursor-line-color:
-  //
-  // --px-vis-event-line-color:
-  // --px-vis-event-icon-color:
-  //
-  // --px-vis-gridlines-color:
-  //
-  // --px-vis-pie-empty-color:
-  //
-  // --px-vis-threshold-color:
-  //
-  // --px-vis-zoom-brush-outline-color:
-  // --px-vis-zoom-brush-fill-color:
-  // --px-vis-zoom-brush-fill-opacity:
-  //
-  //
-  // // Vis CSS
-  // --px-vis-pie-title-color:
-  // --px-vis-pie-title-value-color:
-  //
-  // --px-vis-register-series-name:
-  // --px-vis-register-data-value:
-  // --px-vis-register-box:
+  --px-vis-font-family                       :  "GE Inspira Sans";
+
+  --px-vis-axis-brush-outline-color          :  $primary-default;
+  --px-vis-axis-brush-fill-color              :  $gray7;
+  --px-vis-axis-brush-fill-opacity            :  0.3;
+
+  --px-vis-axis-color                        :  $gray10;
+  --px-vis-axis-title-color                  :  $gray10;
+  --px-vis-axis-common-tick-color            :  $gray10;
+
+  --px-vis-axis-inline-title-color           :  $gray10;
+  --px-vis-axis-inline-type-color            :  $gray5;
+  --px-vis-axis-inline-box-color             :  $gray10;
+
+  --px-dynamic-menu-icon-color               :  $primary-default;
+  --px-dynamic-menu-background-color         :  $gray16;
+  --px-dynamic-menu-border-color             :  $gray19;
+  --px-dynamic-menu-text-color               :  $gray5;
+  --px-dynamic-menu-item-background-color    :  $select-default;
+  --px-dynamic-menu-item-text-color          :  $white;
+
+  --px-vis-nav-brush-outline-color              :  $gray10;
+  --px-vis-nav-brush-fill-color                  :  $gray10;
+  --px-vis-nav-brush-opacity                    :  0.2;
+  --px-vis-nav-brush-gradient-fill-color         :  $gray10;
+  --px-vis-nav-brush-gradient-opacity-1         :  0.1;
+  --px-vis-nav-brush-gradient-opacity-2         :  0.8;
+  --px-vis-nav-brush-handle-fill-color           :  $gray16;
+  --px-vis-nav-brush-handle-lines-color         :  $gray10;
+  --px-vis-nav-brush-handle-fill-color-hover     :  $gray14;
+  --px-vis-nav-brush-handle-lines-color-hover   :  $gray10;
+  --px-vis-nav-brush-handle-fill-color-press     :  $gray17;
+  --px-vis-nav-brush-handle-lines-color-press   :  $gray15;
+
+  --px-vis-cursor-line-color             :  $gray10;
+
+  --px-vis-event-line-color              :  $gray10;
+  --px-vis-event-icon-color              :  $gray6;
+
+  --px-vis-gridlines-color               :  $gray15;
+
+  --px-vis-pie-empty-color               :  $neutral-gray2;
+
+  --px-vis-threshold-color               :  $gray8;
+
+  --px-vis-zoom-brush-outline-color      :  $primary-default;
+  --px-vis-zoom-brush-fill-color          :  $black;
+  --px-vis-zoom-brush-fill-opacity        :  0.5;
+
+
+  // Vis CSS
+  --px-vis-pie-title-color               :  $gray10;
+  --px-vis-pie-title-value-color         :  $gray5;
+  --px-vis-pie-title-font-size           :  45px;
+  --px-vis-pie-title-value-font-size     :  45px;
+
+  --px-vis-register-series-name          :  $gray10;
+  --px-vis-register-data-value           :  $gray5;
+  --px-vis-register-box                  :  $gray14;
+
+  --px-vis-toolbar-icon-color            :  $gray5;
+  --px-vis-toolbar-selected-color        :  $d-actionable-default;
+  --px-vis-toolbar-hover-color           :  $d-actionable-hover;
+  --px-vis-toolbar-active-color          :  $d-actionable-default;
+  --px-vis-toolbar-subrow-background-color  :  rgba($gray19, 0.8);
 
   // Vis Data Vis
   // Colors MUST start at 0 and cannot contain gaps.
-  --px-vis-series-color-0    :  $orange5;
-  --px-vis-series-color-1    :  $teal5;
-  --px-vis-series-color-2    :  $teal4;
-  --px-vis-series-color-3    :  $brown5;
-  --px-vis-series-color-4    :  $brown4;
-  // --px-vis-series-color-5:
-  // --px-vis-series-color-6:
-  // --px-vis-series-color-7:
-  // --px-vis-series-color-8:
-  // --px-vis-series-color-9:
-
-  // --px-vis-series-color-10:
-  // --px-vis-series-color-11:
-  // --px-vis-series-color-12:
-  // --px-vis-series-color-13:
-  // --px-vis-series-color-14:
-  // --px-vis-series-color-15:
-  // --px-vis-series-color-16:
-  // --px-vis-series-color-17:
-  // --px-vis-series-color-18:
-  // --px-vis-series-color-19:
-
-  // --px-vis-series-color-20:
-  // --px-vis-series-color-21:
-  // --px-vis-series-color-22:
-  // --px-vis-series-color-23:
-  // --px-vis-series-color-24:
-  // --px-vis-series-color-25:
-  // --px-vis-series-color-26:
-  // --px-vis-series-color-27:
-  // --px-vis-series-color-28:
-  // --px-vis-series-color-29:
+  --px-vis-series-color-0    :  $cyan6;
+  --px-vis-series-color-1    :  $orange6;
+  --px-vis-series-color-2    :  $yellow-green6;
+  --px-vis-series-color-3    :  $violet6;
+  --px-vis-series-color-4    :  $salmon6;
+  --px-vis-series-color-5    :  $blue6;
+  --px-vis-series-color-6    :  $purple6;
+  --px-vis-series-color-7    :  $teal6;
+  --px-vis-series-color-8    :  $pink6;
+  --px-vis-series-color-9    :  $green6;
+  --px-vis-series-color-10   :  $red6;
+  --px-vis-series-color-11   :  $aqua6;
+  --px-vis-series-color-12   :  $yellow6;
+  --px-vis-series-color-13   :  $neutral-gray6;
+  --px-vis-series-color-14   :  $brown6;
+  --px-vis-series-color-15   :  $cyan4;
+  --px-vis-series-color-16   :  $orange4;
+  --px-vis-series-color-17   :  $yellow-green4;
+  --px-vis-series-color-18   :  $violet4;
+  --px-vis-series-color-19   :  $salmon4;
+  --px-vis-series-color-20   :  $blue4;
+  --px-vis-series-color-21   :  $purple4;
+  --px-vis-series-color-22   :  $teal4;
+  --px-vis-series-color-23   :  $pink4;
+  --px-vis-series-color-24   :  $green4;
+  --px-vis-series-color-25   :  $red4;
+  --px-vis-series-color-26   :  $aqua4;
+  --px-vis-series-color-27   :  $yellow4;
+  --px-vis-series-color-28   :  $neutral-gray4;
+  --px-vis-series-color-29   :  $brown4;
+  --px-vis-series-color-30   :  $cyan2;
+  --px-vis-series-color-31   :  $orange2;
+  --px-vis-series-color-32   :  $yellow-green2;
+  --px-vis-series-color-33   :  $violet2;
+  --px-vis-series-color-34   :  $salmon2;
+  --px-vis-series-color-35   :  $blue2;
+  --px-vis-series-color-36   :  $purple2;
+  --px-vis-series-color-37   :  $teal2;
+  --px-vis-series-color-38   :  $pink2;
+  --px-vis-series-color-39   :  $green2;
+  --px-vis-series-color-40   :  $red2;
+  --px-vis-series-color-41   :  $aqua2;
+  --px-vis-series-color-42   :  $yellow2;
+  --px-vis-series-color-43   :  $neutral-gray2;
+  --px-vis-series-color-44   :  $brown2;
+  --px-vis-series-color-45   :  $cyan8;
+  --px-vis-series-color-46   :  $orange8;
+  --px-vis-series-color-47   :  $yellow-green8;
+  --px-vis-series-color-48   :  $violet8;
+  --px-vis-series-color-49   :  $salmon8;
+  --px-vis-series-color-50   :  $blue8;
+  --px-vis-series-color-51   :  $purple8;
+  --px-vis-series-color-52   :  $teal8;
+  --px-vis-series-color-53   :  $pink8;
+  --px-vis-series-color-54   :  $green8;
+  --px-vis-series-color-55   :  $red8;
+  --px-vis-series-color-56   :  $aqua8;
+  --px-vis-series-color-57   :  $yellow8;
+  --px-vis-series-color-58   :  $neutral-gray8;
+  --px-vis-series-color-59   :  $brown8;
+  --px-vis-series-color-60   :  $cyan5;
+  --px-vis-series-color-61   :  $orange5;
+  --px-vis-series-color-62   :  $yellow-green5;
+  --px-vis-series-color-63   :  $violet5;
+  --px-vis-series-color-64   :  $salmon5;
+  --px-vis-series-color-65   :  $blue5;
+  --px-vis-series-color-66   :  $purple5;
+  --px-vis-series-color-67   :  $teal5;
+  --px-vis-series-color-68   :  $pink5;
+  --px-vis-series-color-69   :  $green5;
+  --px-vis-series-color-70   :  $red5;
+  --px-vis-series-color-71   :  $aqua5;
+  --px-vis-series-color-72   :  $yellow5;
+  --px-vis-series-color-73   :  $neutral-gray5;
+  --px-vis-series-color-74   :  $brown5;
+  --px-vis-series-color-75   :  $cyan3;
+  --px-vis-series-color-76   :  $orange3;
+  --px-vis-series-color-77   :  $yellow-green3;
+  --px-vis-series-color-78   :  $violet3;
+  --px-vis-series-color-79   :  $salmon3;
+  --px-vis-series-color-80   :  $blue3;
+  --px-vis-series-color-81   :  $purple3;
+  --px-vis-series-color-82   :  $teal3;
+  --px-vis-series-color-83   :  $pink3;
+  --px-vis-series-color-84   :  $green3;
+  --px-vis-series-color-85   :  $red3;
+  --px-vis-series-color-86   :  $aqua3;
+  --px-vis-series-color-87   :  $yellow3;
+  --px-vis-series-color-88   :  $neutral-gray3;
+  --px-vis-series-color-89   :  $brown3;
+  --px-vis-series-color-90   :  $cyan1;
+  --px-vis-series-color-91   :  $orange1;
+  --px-vis-series-color-92   :  $yellow-green1;
+  --px-vis-series-color-93   :  $violet1;
+  --px-vis-series-color-94   :  $salmon1;
+  --px-vis-series-color-95   :  $blue1;
+  --px-vis-series-color-96   :  $purple1;
+  --px-vis-series-color-97   :  $teal1;
+  --px-vis-series-color-98   :  $pink1;
+  --px-vis-series-color-99   :  $green1;
+  --px-vis-series-color-100  :  $red1;
+  --px-vis-series-color-101  :  $aqua1;
+  --px-vis-series-color-102  :  $yellow1;
+  --px-vis-series-color-103  :  $neutral-gray1;
+  --px-vis-series-color-104  :  $brown1;
+  --px-vis-series-color-105  :  $cyan9;
+  --px-vis-series-color-106  :  $orange9;
+  --px-vis-series-color-107  :  $yellow-green9;
+  --px-vis-series-color-108  :  $violet9;
+  --px-vis-series-color-109  :  $salmon9;
+  --px-vis-series-color-110  :  $blue9;
+  --px-vis-series-color-111  :  $purple9;
+  --px-vis-series-color-112  :  $teal9;
+  --px-vis-series-color-113  :  $pink9;
+  --px-vis-series-color-114  :  $green9;
+  --px-vis-series-color-115  :  $red9;
+  --px-vis-series-color-116  :  $aqua9;
+  --px-vis-series-color-117  :  $yellow9;
+  --px-vis-series-color-118  :  $neutral-gray9;
+  --px-vis-series-color-119  :  $brown9;
+  --px-vis-series-color-120  :  $cyan7;
+  --px-vis-series-color-121  :  $orange7;
+  --px-vis-series-color-122  :  $yellow-green7;
+  --px-vis-series-color-123  :  $violet7;
+  --px-vis-series-color-124  :  $salmon7;
+  --px-vis-series-color-125  :  $blue7;
+  --px-vis-series-color-126  :  $purple7;
+  --px-vis-series-color-127  :  $teal7;
+  --px-vis-series-color-128  :  $pink7;
+  --px-vis-series-color-129  :  $green7;
+  --px-vis-series-color-130  :  $red7;
+  --px-vis-series-color-131  :  $aqua7;
+  --px-vis-series-color-132  :  $yellow7;
+  --px-vis-series-color-133  :  $neutral-gray7;
+  --px-vis-series-color-134  :  $brown7;
+  --px-vis-series-color-135  :  $cyan10;
+  --px-vis-series-color-136  :  $orange10;
+  --px-vis-series-color-137  :  $yellow-green10;
+  --px-vis-series-color-138  :  $violet10;
+  --px-vis-series-color-139  :  $salmon10;
+  --px-vis-series-color-140  :  $blue10;
+  --px-vis-series-color-141  :  $purple10;
+  --px-vis-series-color-142  :  $teal10;
+  --px-vis-series-color-143  :  $pink10;
+  --px-vis-series-color-144  :  $green10;
+  --px-vis-series-color-145  :  $red10;
+  --px-vis-series-color-146  :  $aqua10;
+  --px-vis-series-color-147  :  $yellow10;
+  --px-vis-series-color-148  :  $neutral-gray10;
+  --px-vis-series-color-149  :  $brown10;
 
   // Gauge styles
   --px-gauge-fill-error-color     :  $status-red3;
   --px-gauge-fill-anomaly-color   :  $status-yellow3;
   --px-gauge-fill-abnormal-color  :  $status-orange3;
   --px-gauge-fill-normal-color    :  $status-blue3;
-  --px-gauge-empty-color          :  $gray15;
-  --px-gauge-needle-color         :  $gray12;
+  --px-gauge-empty-color         :  $gray15;
+  --px-gauge-needle-color        :  $gray12;
 
 }
 
@@ -584,16 +754,4 @@ html {
 
 :host {
   font-family:  $predix-font-family;
-}
-
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
-  src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
-    url('#{$fa-font-path}/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'),
-    url('#{$fa-font-path}/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
-    url('#{$fa-font-path}/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'),
-    url('#{$fa-font-path}/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg');
-  font-weight:  normal;
-  font-style:  normal;
 }
