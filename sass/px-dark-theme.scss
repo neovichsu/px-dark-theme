@@ -377,6 +377,45 @@ html {
   // Login
   --px-login-text-color        :  $gray5;
 
+  // Map
+  --px-map-icon-unknown-color                         : $neutral-gray5;
+  --px-map-icon-info-color                            : $primary-default;
+  --px-map-icon-warning-color                         : $status-orange3;
+  --px-map-icon-important-color                       : $status-red3;
+  --px-map-icon-border-color                          : $gray19;
+  --px-map-icon-symbol-color                          : $white;
+  --px-map-marker-group-cluster-path-size             : 10px;
+  --px-map-marker-group-cluster-font-size             : 15px;
+  --px-map-marker-group-cluster-font-weight           : normal;
+  --px-map-marker-group-cluster-font-color            : inherit;
+  --px-map-marker-group-cluster-font-size             : inherit;
+  --px-map-marker-group-cluster-font-weight           : inherit;
+  --px-map-marker-group-cluster-line-height           : inherit;
+  --px-map-marker-group-cluster-border-size           : 5px;
+  --px-map-marker-group-cluster-border-color          : $gray19;
+  --px-map-marker-group-cluster-polygon-stroke-color  : $blue7;
+  --px-map-marker-group-cluster-polygon-fill-color    : $blue9;
+  --px-map-marker-group-cluster-background-color      : $gray16;
+  --px-map-control-button-background-color            : $gray16;
+  --px-map-control-button-text-color                  : $gray5;
+  --px-map-control-button-border-width                : 3px;
+  --px-map-control-button-border-color                : rgba($black,.3);
+  --px-map-control-button-background-color--hover     : $gray18;
+  --px-map-control-button-text-color--hover           : $d-actionable-default;
+  --px-map-control-button-border-color--disabled      : $gray4;
+  --px-map-control-button-text-color--disabled        : $gray4;
+  --px-map-info-control-background-color              : $gray16;
+  --px-map-info-control-border-color                  : $gray19;
+  --px-map-data-box-border-color__top                 : $gray15;
+  --px-map-data-box-border-color__left                : $gray15;
+  --px-map-popup-content-wrapper-border               : $gray19;
+  --px-map-popup-content-wrapper-background-color     : $gray16;
+  --px-map-popup-content-wrapper-text-color           : $gray5;
+  --px-map-marker-locate-icon-color                   : $primary-default;
+  --px-map-marker-locate-icon-border-color            : $gray19;
+  --px-map-marker-locate-icon-accuracy-color          : $gray5;
+  --px-map-marker-locate-icon-accuracy-opacity        : 0.3;
+
   // Modal
   --px-modal-background-color  :  $gray2;
   --px-modal-overlay-color     :  rgba($black, .65);
