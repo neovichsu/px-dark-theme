@@ -1,3 +1,7 @@
+v2.0.1
+==================
+* add styles for px-map
+
 v2.0.0
 ==================
 * add and update styles for px redesign
