@@ -1,3 +1,7 @@
+v2.0.2
+==================
+* update axis color
+
 v2.0.1
 ==================
 * add styles for px-map
