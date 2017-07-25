@@ -2,7 +2,7 @@
 
 ## Overview
 
-Px-dark-theme is the starting point for theming Predix UI  components. It is based loosely on the concepts outlined [here](https://www.polymer-project.org/1.0/docs/devguide/styling.html#xscope-styling).
+`Px-dark-theme` is a Predix UI component which is the starting point for theming other Predix UI components. It is based loosely on the concepts outlined [here](https://www.polymer-project.org/1.0/docs/devguide/styling.html#xscope-styling).
 
 
 ## Usage
