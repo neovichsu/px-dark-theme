@@ -1,3 +1,7 @@
+v2.0.5
+==================
+* update breadcrumbs styles
+
 v2.0.4
 ==================
 * update context browser styles
