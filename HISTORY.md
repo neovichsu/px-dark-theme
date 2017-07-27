@@ -1,3 +1,7 @@
+v2.0.6
+==================
+* update headings subsection styles
+
 v2.0.5
 ==================
 * update breadcrumbs styles
