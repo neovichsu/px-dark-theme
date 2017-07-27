@@ -1,3 +1,7 @@
+v2.0.4
+==================
+* update context browser styles
+
 v2.0.3
 ==================
 * update datetime styles
