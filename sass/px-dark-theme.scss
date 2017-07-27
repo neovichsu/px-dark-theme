@@ -476,10 +476,10 @@ html {
   --px-progress-bar-background-color  :  $cyan1;
 
   // Slider
-  --px-slider-border-color                         :  $gray14;
+  --px-slider-border-color                         :  transparent;
   --px-slider-border-color--disabled               :  rgba($gray10,0.5);
   --px-slider-border-color--selected               :  $primary-default;
-  --px-slider-background-color                     :  $gray14;
+  --px-slider-background-color                     :  rgba($gray10,0.4);
   --px-slider-background-color--disabled           :  transparent;
   --px-slider-background-color--selected           :  $primary-default;
   --px-slider-background-color--hover              :  $primary-hover;

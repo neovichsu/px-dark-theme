@@ -1,3 +1,7 @@
+v2.0.7
+==================
+* update slider styles
+
 v2.0.6
 ==================
 * update headings subsection styles
