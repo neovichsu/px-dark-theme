@@ -1,3 +1,7 @@
+v2.0.9
+==================
+* update data table styles
+
 v2.0.8
 ==================
 * update data table styles
