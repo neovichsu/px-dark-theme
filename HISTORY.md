@@ -1,3 +1,7 @@
+v2.0.10
+==================
+* update slider styles
+
 v2.0.9
 ==================
 * update data table styles
