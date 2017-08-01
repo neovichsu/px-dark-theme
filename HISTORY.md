@@ -1,3 +1,7 @@
+v2.0.11
+==================
+* update button styles
+
 v2.0.10
 ==================
 * update slider styles
