@@ -1,3 +1,7 @@
+v2.0.14
+==================
+* add heatmap styles
+
 v2.0.13
 ==================
 * remove unnecessary vars for calendar

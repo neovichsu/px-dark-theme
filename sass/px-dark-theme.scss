@@ -390,6 +390,11 @@ html {
   --px-file-upload-validation-color           :  $status-red3;
   --px-file-upload-dropzone-background-color  :  rgba($white,0.15);
 
+  // Heatmap Grid
+  --px-heatmap-grid-start-color               :  $gray15;
+  --px-heatmap-grid-end-color                 :  $status-red3;
+  --px-heatmap-grid-table-border-color        :  $gray15;
+
   // Inbox
   --px-inbox-border-color                   :  $gray15;
   --px-inbox-secondary-text-color           :  $gray10;
