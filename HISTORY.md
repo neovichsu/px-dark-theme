@@ -1,3 +1,7 @@
+v2.0.15
+==================
+* add tile styles
+
 v2.0.14
 ==================
 * add heatmap styles
