@@ -14,7 +14,7 @@ html {
   background-color: $gray16;
 }
 
-:root{
+html, :host > * {
 
   // Defaults
   --px-base-text-color        :  $gray5;
@@ -823,8 +823,4 @@ html {
 html {
   font-family:  $predix-font-family;
   font-size:  $inuit-base-font-size;
-}
-
-:host {
-  font-family:  $predix-font-family;
 }
