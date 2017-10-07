@@ -1,3 +1,7 @@
+v2.0.18
+==================
+* add steps styles
+
 v2.0.17
 ==================
 * add chip styles
