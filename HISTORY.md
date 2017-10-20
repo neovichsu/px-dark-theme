@@ -1,3 +1,7 @@
+v2.0.19
+==================
+* add disabled color for tree
+
 v2.0.18
 ==================
 * add steps styles
