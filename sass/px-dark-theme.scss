@@ -480,6 +480,12 @@ html, :host > * {
   // Overlay
   --px-overlay-color           :  rgba($black, .65);
 
+  // Panel
+  --px-panel-bg-color--light   : $gray16;
+  --px-panel-bg-color--medium  : $gray17;
+  --px-panel-bg-color--dark    : $gray18;
+  --px-panel-border-color      : $gray12;
+
   // Popover
   --px-popover-background-color  :  $gray16;
   --px-popover-border-color      :  $gray19;
@@ -514,6 +520,14 @@ html, :host > * {
   // Spinner
   --px-spinner-fill-color        :  $primary-default;
   --px-spinner-background-color  :  $cyan1;
+
+  // Steps
+  --px-steps-connector-color                 :  rgba($gray10,0.6);
+  --px-steps-text-color                      :  rgba($gray8,0.6);
+  --px-steps-text-color--current             :  $select-default;
+  --px-steps-text-color--completed           :  $gray10;
+  --px-steps-text-color--hover               :  $select-hover;
+  --px-steps-text-color--pressed             :  $select-pressed;
 
   // Table View
   --px-table-row-color                       :  inherit;
@@ -566,6 +580,7 @@ html, :host > * {
   --px-tree-background-color--hover          :  $gray15;
   --px-tree-text-color--selected             :  $gray5;
   --px-tree-background-color--selected       :  $select-default;
+  --px-tree-text-color--disabled             : rgba($gray10, 0.5);
 
   // Tooltip
   --px-tooltip-background-color              :  $gray16;
