@@ -1,3 +1,7 @@
+v2.0.20
+==================
+* add style for inbox
+
 v2.0.19
 ==================
 * add disabled color for tree
