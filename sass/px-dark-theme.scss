@@ -9,12 +9,8 @@
 $predix-font-family : "GE Inspira Sans", sans-serif !default;
 @import "px-typography-design/_base.typography.scss";
 
-
 html {
   background-color: $gray16;
-}
-
-html, :host > * {
 
   // Defaults
   --px-base-text-color        :  $gray5;
