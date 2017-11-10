@@ -1,3 +1,7 @@
+v2.0.20
+==================
+* add styles for context browser
+
 v2.0.19
 ==================
 * add disabled color for tree
