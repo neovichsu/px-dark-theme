@@ -15,8 +15,6 @@
   },
   "devDependencies": {
     "browser-sync": "^2.14.0",
-    "grunt-contrib-copy": "^0.8.0",
-    "grunt-insert": "^0.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-bump": "^2.2.0",
